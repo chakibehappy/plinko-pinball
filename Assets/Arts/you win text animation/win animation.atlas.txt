@@ -1,0 +1,110 @@
+win animation.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+Spin_noBorder
+	bounds: 529, 129, 471, 473
+board
+	bounds: 2, 604, 943, 402
+	offsets: 6, 6, 955, 413
+coin/11.png/Flip-In2_03
+	bounds: 529, 17, 237, 110
+	offsets: 53, 107, 344, 314
+coin/11.png/Flip-In2_04
+	bounds: 947, 769, 237, 68
+	offsets: 53, 130, 344, 314
+	rotate: 90
+coin/11.png/Flip-In2_05
+	bounds: 241, 50, 237, 25
+	offsets: 53, 153, 344, 314
+coin/11.png/Flip-In2_06
+	bounds: 2, 24, 237, 51
+	offsets: 53, 131, 344, 314
+coin/11.png/Flip-In2_13
+	bounds: 768, 19, 237, 108
+	offsets: 53, 108, 344, 314
+coin/11.png/Flip-In2_14
+	bounds: 947, 530, 237, 65
+	offsets: 53, 131, 344, 314
+	rotate: 90
+coin/11.png/Flip-In2_15
+	bounds: 241, 25, 237, 23
+	offsets: 53, 153, 344, 314
+coin/11.png/Flip-In2_16
+	bounds: 241, 2, 237, 21
+	offsets: 53, 148, 344, 314
+shine white
+	bounds: 2, 77, 525, 525
+
+win animation_2.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+Glow_Neo
+	bounds: 733, 273, 256, 256
+coin/11.png/Flip-In2_00
+	bounds: 437, 770, 236, 237
+	offsets: 53, 37, 344, 314
+coin/11.png/Flip-In2_01
+	bounds: 241, 770, 237, 194
+	offsets: 53, 61, 344, 314
+	rotate: 90
+coin/11.png/Flip-In2_02
+	bounds: 2, 358, 237, 152
+	offsets: 53, 84, 344, 314
+coin/11.png/Flip-In2_07
+	bounds: 2, 815, 237, 100
+	offsets: 53, 105, 344, 314
+coin/11.png/Flip-In2_08
+	bounds: 2, 665, 237, 148
+	offsets: 53, 79, 344, 314
+coin/11.png/Flip-In2_09
+	bounds: 241, 531, 237, 195
+	offsets: 53, 54, 344, 314
+	rotate: 90
+coin/11.png/Flip-In2_10
+	bounds: 438, 531, 237, 236
+	offsets: 53, 41, 344, 314
+	rotate: 90
+coin/11.png/Flip-In2_11
+	bounds: 2, 2, 237, 193
+	offsets: 53, 64, 344, 314
+coin/11.png/Flip-In2_12
+	bounds: 2, 512, 237, 151
+	offsets: 53, 86, 344, 314
+coin/11.png/Flip-In2_17
+	bounds: 2, 917, 237, 90
+	offsets: 53, 112, 344, 314
+coin/11.png/Flip-In2_18
+	bounds: 2, 197, 237, 159
+	offsets: 53, 76, 344, 314
+coin/11.png/Flip-In2_19
+	bounds: 241, 292, 237, 229
+	offsets: 53, 39, 344, 314
+	rotate: 90
+shine yellow
+	bounds: 241, 26, 264, 323
+	rotate: 90
+win
+	bounds: 676, 618, 389, 162
+	offsets: 1, 1, 391, 164
+	rotate: 90
+you
+	bounds: 566, 190, 339, 165
+	offsets: 1, 1, 341, 167
+	rotate: 90
+
+win animation_3.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+CoinBorder
+	bounds: 684, 5, 90, 760
+Flare_03_bl
+	bounds: 375, 149, 307, 307
+dust spark
+	bounds: 2, 375, 363, 390
+light_yellow
+	bounds: 367, 458, 307, 307
+light_yellow2
+	bounds: 2, 2, 371, 371

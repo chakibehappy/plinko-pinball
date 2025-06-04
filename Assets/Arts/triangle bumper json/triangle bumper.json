@@ -1,0 +1,204 @@
+{
+"skeleton": {
+	"hash": "xVlARhRfWnk",
+	"spine": "4.1.24",
+	"x": -192.25,
+	"y": -194.22,
+	"width": 512,
+	"height": 381,
+	"images": "./images/",
+	"audio": "F:/SLENCE/Work/PINBALL/10-9-2024/Red Bumper/4.1"
+},
+"bones": [
+	{ "name": "root", "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "base", "parent": "root", "length": 142.19, "rotation": 1.17, "x": 22.68, "y": 3.32 },
+	{ "name": "plane bone", "parent": "base", "length": 284.64, "rotation": 153.48, "x": 51.23, "y": 92.78 },
+	{ "name": "window bone", "parent": "plane bone", "length": 144.46, "rotation": -1.73, "x": 122.63, "y": -51.06 },
+	{ "name": "bone4", "parent": "plane bone", "length": 99.97, "rotation": -179.24, "x": -174.94, "y": 12.37 }
+],
+"slots": [
+	{ "name": "base", "bone": "base", "attachment": "base skin" },
+	{ "name": "plane", "bone": "plane bone", "attachment": "plane" },
+	{ "name": "window base", "bone": "window bone", "attachment": "window base" },
+	{ "name": "window base on", "bone": "window bone" },
+	{ "name": "window red", "bone": "window bone", "attachment": "window red" },
+	{ "name": "window green", "bone": "window bone", "attachment": "window green" },
+	{ "name": "window yellow", "bone": "window bone", "attachment": "window yellow" },
+	{ "name": "window blue", "bone": "window bone", "attachment": "window blue" },
+	{ "name": "fire 1", "bone": "bone4", "attachment": "fire 1" },
+	{ "name": "fire 2", "bone": "bone4", "attachment": "fire 2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"base": {
+				"base": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 608.68, -404.26, -365.12, -384.38, -349.56, 377.46, 624.24, 357.58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 974,
+					"height": 762
+				}
+			},
+			"fire 1": {
+				"fire 1": { "x": 88.78, "y": 26.33, "rotation": 24.58, "width": 234, "height": 191 }
+			},
+			"fire 2": {
+				"fire 2": { "x": 88.78, "y": 26.33, "rotation": 24.58, "width": 234, "height": 191 }
+			},
+			"plane": {
+				"plane": { "x": 79.56, "y": 50.48, "rotation": -154.65, "width": 726, "height": 576 }
+			},
+			"window base": {
+				"window base": { "x": 83.24, "y": -12.25, "rotation": -152.92, "width": 280, "height": 172 }
+			},
+			"window base on": {
+				"window base on": { "x": 83.24, "y": -12.25, "rotation": -152.92, "width": 280, "height": 172 }
+			},
+			"window blue": {
+				"window blue": { "x": 158.81, "y": -60.09, "rotation": -152.92, "width": 107, "height": 18 }
+			},
+			"window green": {
+				"window green": { "x": 40.92, "y": -5.25, "rotation": -152.92, "width": 153, "height": 121 }
+			},
+			"window red": {
+				"window red": { "x": 171.05, "y": 20.3, "rotation": -152.92, "width": 94, "height": 96 }
+			},
+			"window yellow": {
+				"window yellow": { "x": 16.1, "y": -55.56, "rotation": -152.92, "width": 121, "height": 108 }
+			}
+		}
+	},
+	{
+		"name": "triangle off",
+		"attachments": {
+			"base": {
+				"base skin": { "name": "base-1", "type": "linkedmesh", "path": "base", "parent": "base", "width": 974, "height": 762 }
+			}
+		}
+	},
+	{
+		"name": "triangle on",
+		"attachments": {
+			"base": {
+				"base skin": { "name": "base-on", "type": "linkedmesh", "path": "base light on", "parent": "base", "width": 974, "height": 762 }
+			}
+		}
+	}
+],
+"animations": {
+	"hit": {
+		"slots": {
+			"fire 2": {
+				"attachment": [
+					{ "time": 0.1 },
+					{ "time": 0.2333, "name": "fire 2" },
+					{ "time": 0.3667 },
+					{ "time": 0.5, "name": "fire 2" }
+				]
+			},
+			"window base on": {
+				"attachment": [
+					{ "time": 0.0667, "name": "window base on" },
+					{ "time": 0.2667 }
+				]
+			},
+			"window blue": {
+				"attachment": [
+					{}
+				]
+			},
+			"window green": {
+				"attachment": [
+					{}
+				]
+			},
+			"window red": {
+				"attachment": [
+					{}
+				]
+			},
+			"window yellow": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"plane bone": {
+				"rotate": [
+					{},
+					{ "time": 0.1, "value": -2.12 },
+					{ "time": 0.1667, "value": 0.54 },
+					{ "time": 0.2333, "value": -7.1 },
+					{ "time": 0.3, "value": 0.97 },
+					{ "time": 0.5 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.1, "x": 12.28, "y": 49.68 },
+					{ "time": 0.1667, "x": 0.12, "y": 3.73 },
+					{ "time": 0.5 }
+				]
+			},
+			"base": {
+				"rotate": [
+					{ "value": 0.02 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.1, "x": -9.59, "y": 0.37 },
+					{ "time": 0.2333, "x": 9.36, "y": -20.58 },
+					{ "time": 0.3667, "x": -9.59, "y": 0.37 },
+					{ "time": 0.5 }
+				]
+			}
+		}
+	},
+	"idle": {
+		"slots": {
+			"fire 2": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.5, "color": "ffffff00" },
+					{ "time": 2, "color": "ffffffff" }
+				]
+			},
+			"window blue": {
+				"attachment": [
+					{},
+					{ "time": 1.0667, "name": "window blue" },
+					{ "time": 1.5 }
+				]
+			},
+			"window green": {
+				"attachment": [
+					{},
+					{ "time": 0.2667, "name": "window green" },
+					{ "time": 0.6667 }
+				]
+			},
+			"window red": {
+				"attachment": [
+					{},
+					{ "time": 1.5, "name": "window red" },
+					{ "time": 2 }
+				]
+			},
+			"window yellow": {
+				"attachment": [
+					{},
+					{ "time": 0.6667, "name": "window yellow" },
+					{ "time": 1.0667 }
+				]
+			}
+		}
+	}
+}
+}

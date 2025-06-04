@@ -1,0 +1,32 @@
+triangle bumper.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+base
+	bounds: 2, 385, 487, 381
+base light on
+	bounds: 2, 2, 487, 381
+fire 1
+	bounds: 610, 455, 117, 96
+fire 2
+	bounds: 491, 455, 117, 96
+plane
+	bounds: 491, 2, 363, 288
+	rotate: 90
+window base
+	bounds: 491, 367, 139, 86
+	offsets: 0, 0, 140, 86
+window base on
+	bounds: 632, 367, 139, 86
+	offsets: 0, 0, 140, 86
+window blue
+	bounds: 632, 553, 52, 9
+	offsets: 1, 0, 54, 9
+window green
+	bounds: 491, 553, 77, 61
+window red
+	bounds: 729, 455, 47, 48
+window yellow
+	bounds: 570, 553, 60, 53
+	offsets: 0, 1, 61, 54

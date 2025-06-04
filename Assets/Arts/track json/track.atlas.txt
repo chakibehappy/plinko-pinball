@@ -1,0 +1,17 @@
+track.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+FREE BALL MAIN
+	bounds: 485, 516, 439, 85
+	offsets: 7, 7, 453, 99
+UNLOCKED
+	bounds: 485, 2, 446, 432
+	rotate: 90
+arrow5
+	bounds: 485, 465, 49, 108
+	offsets: 1, 0, 51, 109
+	rotate: 90
+track
+	bounds: 2, 2, 481, 599

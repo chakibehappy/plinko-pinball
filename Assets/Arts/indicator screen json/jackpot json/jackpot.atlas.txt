@@ -1,0 +1,22 @@
+jackpot.png
+	size: 1024, 512
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+1
+	bounds: 2, 78, 420, 418
+	offsets: 1, 1, 422, 420
+2
+	bounds: 567, 237, 253, 243
+	rotate: 90
+3
+	bounds: 567, 73, 169, 162
+base
+	bounds: 423, 2, 494, 143
+	rotate: 90
+jackpot
+	bounds: 812, 58, 438, 74
+	rotate: 90
+star
+	bounds: 888, 357, 105, 139
+	offsets: 2, 6, 111, 145

@@ -1,0 +1,363 @@
+{
+"skeleton": {
+	"hash": "fxiiHB+iq0s",
+	"spine": "4.1.24",
+	"x": -257.5,
+	"y": -272.99,
+	"width": 525.45,
+	"height": 639.43,
+	"images": "./images/",
+	"audio": "F:/SLENCE/Work/PINBALL/10-9-2024/Toy Bash/4.1"
+},
+"bones": [
+	{ "name": "root", "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "bone", "parent": "root", "x": -6.59, "y": -18.41 },
+	{ "name": "bone2", "parent": "bone", "length": 216.21, "rotation": 79.43, "x": 0.32, "y": -25.39 },
+	{ "name": "bone3", "parent": "bone2", "length": 153.13, "rotation": -118.42, "x": 210.04, "y": -90.52 },
+	{ "name": "bone4", "parent": "bone3", "length": 374.93, "rotation": 96.02, "x": 153.13 },
+	{ "name": "bone5", "parent": "bone2", "length": 313, "rotation": 142.64, "x": 213.83, "y": 74.51 },
+	{ "name": "bone6", "parent": "bone2", "length": 489.73, "rotation": 2.26, "x": 264.6, "y": 3.27 },
+	{ "name": "bone7", "parent": "bone6", "x": 104.44, "y": 49.64 },
+	{ "name": "shadow", "parent": "root" },
+	{
+		"name": "bone8",
+		"parent": "bone2",
+		"length": 374.93,
+		"rotation": 51.62,
+		"x": 40.21,
+		"y": -269.01,
+		"scaleX": -0.7901
+	}
+],
+"slots": [
+	{ "name": "arm L2", "bone": "bone8", "attachment": "arm L2" },
+	{ "name": "UFO shadow", "bone": "shadow", "color": "ffffff5c", "attachment": "UFO shadow" },
+	{ "name": "refleksi", "bone": "bone", "color": "ffffffc9", "attachment": "refleksi" },
+	{ "name": "UFO", "bone": "bone", "attachment": "UFO" },
+	{ "name": "LIGHT BASE", "bone": "bone", "attachment": "LIGHT" },
+	{ "name": "LIGHT OFF", "bone": "bone" },
+	{ "name": "body", "bone": "bone2", "attachment": "body" },
+	{ "name": "arm R", "bone": "bone5", "attachment": "arm R" },
+	{ "name": "head", "bone": "bone6", "attachment": "head" },
+	{ "name": "hand L", "bone": "bone3", "attachment": "hand L" },
+	{ "name": "arm L", "bone": "bone4", "attachment": "arm L" },
+	{ "name": "eyes", "bone": "bone7", "attachment": "eyes" },
+	{ "name": "gun light off", "bone": "bone4", "attachment": "gun light off" },
+	{ "name": "board", "bone": "bone", "attachment": "board" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"arm L": {
+				"arm L": { "x": 224.34, "y": 2.6, "rotation": -57.03, "width": 328, "height": 471 }
+			},
+			"arm L2": {
+				"arm L2": {
+					"path": "arm L",
+					"color": "00000042",
+					"x": 224.34,
+					"y": 2.6,
+					"rotation": -57.03,
+					"width": 328,
+					"height": 471
+				}
+			},
+			"arm R": {
+				"arm R": { "x": 179.9, "y": -17.91, "rotation": 137.94, "width": 272, "height": 262 }
+			},
+			"board": {
+				"board": { "x": -3.24, "y": -66.75, "width": 382, "height": 114 }
+			},
+			"body": {
+				"body": { "x": 122.3, "y": -16.78, "rotation": -79.43, "width": 237, "height": 301 }
+			},
+			"eyes": {
+				"eeys red": { "x": 19.46, "y": -26.57, "rotation": -81.68, "width": 374, "height": 208 },
+				"eyes": { "x": 19.46, "y": -26.57, "rotation": -81.68, "width": 374, "height": 208 },
+				"eyes blue": { "x": 19.46, "y": -26.57, "rotation": -81.68, "width": 374, "height": 208 },
+				"eyes green": { "x": 19.46, "y": -26.57, "rotation": -81.68, "width": 374, "height": 208 }
+			},
+			"gun light off": {
+				"gun light off": { "x": 311.72, "y": 13.99, "rotation": -57.03, "width": 194, "height": 176 },
+				"gun light on": { "x": 347.59, "y": 21.16, "rotation": -57.03, "width": 221, "height": 244 }
+			},
+			"hand L": {
+				"hand L": { "x": 87.68, "y": 1.22, "rotation": 38.99, "width": 190, "height": 176 }
+			},
+			"head": {
+				"head": { "x": 241.48, "y": -38.07, "rotation": -81.68, "width": 481, "height": 565 }
+			},
+			"LIGHT OFF": {
+				"LIGHT BASE": { "x": -18.77, "y": 42.56, "width": 847, "height": 734 }
+			},
+			"refleksi": {
+				"refleksi": { "x": 6.59, "y": -216.17, "width": 1030, "height": 569 }
+			},
+			"UFO": {
+				"UFO": { "x": -1.74, "y": 18.75, "width": 995, "height": 859 }
+			},
+			"UFO shadow": {
+				"UFO shadow": { "y": -109.47, "width": 1006, "height": 873 }
+			}
+		}
+	},
+	{
+		"name": "0",
+		"attachments": {
+			"LIGHT BASE": {
+				"LIGHT": { "name": "LIGHT BASE", "x": -18.89, "y": 41.81, "width": 847, "height": 734 }
+			}
+		}
+	},
+	{
+		"name": "1",
+		"attachments": {
+			"LIGHT BASE": {
+				"LIGHT": { "name": "LIGHT1", "x": -18.41, "y": 42.16, "width": 847, "height": 734 }
+			}
+		}
+	},
+	{
+		"name": "2",
+		"attachments": {
+			"LIGHT BASE": {
+				"LIGHT": { "name": "LIGHT2", "x": -18.41, "y": 42.16, "width": 847, "height": 734 }
+			}
+		}
+	},
+	{
+		"name": "3",
+		"attachments": {
+			"LIGHT BASE": {
+				"LIGHT": { "name": "LIGHT3", "x": -18.41, "y": 42.16, "width": 847, "height": 734 }
+			}
+		}
+	},
+	{
+		"name": "4",
+		"attachments": {
+			"LIGHT BASE": {
+				"LIGHT": { "name": "LIGHT4", "x": -18.41, "y": 42.16, "width": 847, "height": 734 }
+			}
+		}
+	}
+],
+"animations": {
+	"hit": {
+		"slots": {
+			"eyes": {
+				"attachment": [
+					{ "time": 0.0333, "name": "eeys red" },
+					{ "time": 0.1333, "name": "eyes" },
+					{ "time": 0.2, "name": "eeys red" },
+					{ "time": 0.2667, "name": "eyes blue" },
+					{ "time": 0.3333, "name": "eyes green" },
+					{ "time": 0.4, "name": "eyes" },
+					{ "time": 0.4667, "name": "eeys red" },
+					{ "time": 0.6, "name": "eyes" }
+				]
+			},
+			"gun light off": {
+				"attachment": [
+					{ "time": 0.1667, "name": "gun light on" },
+					{ "time": 0.2333, "name": "gun light off" },
+					{ "time": 0.3, "name": "gun light on" },
+					{ "time": 0.3667, "name": "gun light off" },
+					{ "time": 0.4667, "name": "gun light on" },
+					{ "time": 0.5333, "name": "gun light off" }
+				]
+			},
+			"LIGHT OFF": {
+				"attachment": [
+					{ "name": "LIGHT BASE" },
+					{ "time": 0.1 },
+					{ "time": 0.2333, "name": "LIGHT BASE" },
+					{ "time": 0.3333 },
+					{ "time": 0.4667, "name": "LIGHT BASE" },
+					{ "time": 0.5667 }
+				]
+			}
+		},
+		"bones": {
+			"bone4": {
+				"rotate": [
+					{},
+					{ "time": 0.1333, "value": -45.34 },
+					{ "time": 0.3, "value": -11.1 },
+					{ "time": 0.4333, "value": -51.83 },
+					{ "time": 0.6667 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{},
+					{ "time": 0.1, "value": -10.47 },
+					{ "time": 0.3333, "value": 10.95 },
+					{ "time": 0.4667, "value": -9.11 },
+					{ "time": 0.6667 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "value": -13.02 },
+					{ "time": 0.4, "value": 11.42 },
+					{ "time": 0.6667 }
+				],
+				"translate": [
+					{ "time": 0.1333 },
+					{ "time": 0.2, "x": 13.91, "y": 38.01 },
+					{ "time": 0.2667, "x": 6.14, "y": -8.18 },
+					{ "time": 0.4333, "x": 3.77, "y": -57.93 },
+					{ "time": 0.6667 }
+				]
+			},
+			"bone5": {
+				"rotate": [
+					{},
+					{ "time": 0.1333, "value": -38.18 },
+					{ "time": 0.3, "value": -4.47 },
+					{ "time": 0.4, "value": -46.76 },
+					{ "time": 0.6667 }
+				]
+			},
+			"bone3": {
+				"rotate": [
+					{},
+					{ "time": 0.1333, "value": 48.59 },
+					{ "time": 0.2333, "value": 21.18 },
+					{ "time": 0.4333, "value": 62.23 },
+					{ "time": 0.6667 }
+				]
+			},
+			"bone6": {
+				"rotate": [
+					{},
+					{ "time": 0.0667, "value": 9.8 },
+					{ "time": 0.2, "value": -11 },
+					{ "time": 0.2667, "value": -9.91 },
+					{ "time": 0.4333, "value": 26.54 },
+					{ "time": 0.6667 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.2, "x": 36.88, "y": -0.81 },
+					{ "time": 0.4333, "x": -37.96, "y": 11.74 },
+					{ "time": 0.6667 }
+				]
+			},
+			"shadow": {
+				"rotate": [
+					{},
+					{ "time": 0.1, "value": 9.55 },
+					{ "time": 0.3333, "value": -8.1 },
+					{ "time": 0.4667, "value": 6.72 },
+					{ "time": 0.6667 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.1, "x": 4.32, "y": -25.71 },
+					{ "time": 0.6667 }
+				]
+			},
+			"bone8": {
+				"rotate": [
+					{},
+					{ "time": 0.1333, "value": -45.34 },
+					{ "time": 0.3, "value": -11.1 },
+					{ "time": 0.4333, "value": -51.83 },
+					{ "time": 0.6667 }
+				]
+			}
+		}
+	},
+	"idle": {
+		"slots": {
+			"eyes": {
+				"attachment": [
+					{ "time": 0.1333, "name": "eeys red" },
+					{ "time": 0.4333, "name": "eyes" }
+				]
+			},
+			"gun light off": {
+				"attachment": [
+					{ "time": 0.5, "name": "gun light on" },
+					{ "time": 0.7667, "name": "gun light off" }
+				]
+			}
+		},
+		"bones": {
+			"bone2": {
+				"rotate": [
+					{},
+					{ "time": 0.1333, "value": 1.33 },
+					{ "time": 0.2333, "value": 1.1 },
+					{ "time": 0.3333, "value": -0.48 },
+					{ "time": 0.4667, "value": -0.75 },
+					{ "time": 0.6667 },
+					{ "time": 0.8, "value": 1.33 },
+					{ "time": 0.9, "value": 1.1 },
+					{ "time": 1, "value": -0.48 },
+					{ "time": 1.1333, "value": -0.75 },
+					{ "time": 1.3333 }
+				]
+			},
+			"bone3": {
+				"rotate": [
+					{},
+					{ "time": 0.1333, "value": -3.49, "curve": "stepped" },
+					{ "time": 0.2333, "value": -3.49 },
+					{ "time": 0.4, "value": 0.83, "curve": "stepped" },
+					{ "time": 0.5, "value": 0.83 },
+					{ "time": 0.6667 },
+					{ "time": 0.8, "value": -3.49, "curve": "stepped" },
+					{ "time": 0.9, "value": -3.49 },
+					{ "time": 1.0667, "value": 0.83, "curve": "stepped" },
+					{ "time": 1.1667, "value": 0.83 },
+					{ "time": 1.3333 }
+				]
+			},
+			"bone5": {
+				"rotate": [
+					{},
+					{ "time": 0.2, "value": -4.59, "curve": "stepped" },
+					{ "time": 0.3, "value": -4.59 },
+					{ "time": 0.6667 },
+					{ "time": 0.8667, "value": -4.59, "curve": "stepped" },
+					{ "time": 0.9667, "value": -4.59 },
+					{ "time": 1.3333 }
+				]
+			},
+			"bone6": {
+				"rotate": [
+					{},
+					{ "time": 0.1333, "value": 1.83, "curve": "stepped" },
+					{ "time": 0.2333, "value": 1.83 },
+					{ "time": 0.3667, "value": -2.49, "curve": "stepped" },
+					{ "time": 0.4667, "value": -2.49 },
+					{ "time": 0.6667 },
+					{ "time": 0.8, "value": 1.83, "curve": "stepped" },
+					{ "time": 0.9, "value": 1.83 },
+					{ "time": 1.0333, "value": -2.49, "curve": "stepped" },
+					{ "time": 1.1333, "value": -2.49 },
+					{ "time": 1.3333 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.1333, "x": -12.39, "y": -0.88, "curve": "stepped" },
+					{ "time": 0.2333, "x": -12.39, "y": -0.88 },
+					{ "time": 0.3333, "x": -1.93, "y": -0.57, "curve": "stepped" },
+					{ "time": 0.4667, "x": -1.93, "y": -0.57 },
+					{ "time": 0.6667 },
+					{ "time": 0.8, "x": -12.39, "y": -0.88, "curve": "stepped" },
+					{ "time": 0.9, "x": -12.39, "y": -0.88 },
+					{ "time": 1, "x": -1.93, "y": -0.57, "curve": "stepped" },
+					{ "time": 1.1333, "x": -1.93, "y": -0.57 },
+					{ "time": 1.3333 }
+				]
+			}
+		}
+	}
+}
+}

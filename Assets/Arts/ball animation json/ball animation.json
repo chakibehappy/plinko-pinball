@@ -1,0 +1,204 @@
+{
+"skeleton": {
+	"hash": "QRzFveUkD4A",
+	"spine": "4.1.24",
+	"x": -61.02,
+	"y": -61.47,
+	"width": 120,
+	"height": 121,
+	"images": "./images/",
+	"audio": "D:/freelance/IDN/Pinball/ball animation/images"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "spark1", "parent": "root", "length": 13.2, "rotation": 124.05, "x": -0.07, "y": 0.25 },
+	{ "name": "spark2", "parent": "root", "length": 27.79, "rotation": 40.47, "x": 0.12, "y": 0.1 },
+	{ "name": "spark3", "parent": "root", "length": 46.61, "rotation": 75.3, "x": 0.19, "y": 0.1 },
+	{ "name": "glowing", "parent": "root", "length": 20.26, "rotation": -1.67, "x": -9.38, "y": -38.62 }
+],
+"slots": [
+	{ "name": "shadow", "bone": "root", "attachment": "shadow" },
+	{ "name": "glowing", "bone": "glowing", "attachment": "glowing" },
+	{ "name": "ball", "bone": "root", "attachment": "ball" },
+	{ "name": "spark2", "bone": "spark2", "attachment": "spark2" },
+	{ "name": "spark1", "bone": "spark1", "attachment": "spark1" },
+	{ "name": "spark3", "bone": "spark3", "attachment": "spark3" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"ball": {
+				"ball": { "x": -1.02, "y": -0.97, "width": 70, "height": 71 }
+			},
+			"glowing": {
+				"glowing": { "x": 7.24, "y": 38.38, "rotation": 1.67, "width": 120, "height": 120 }
+			},
+			"shadow": {
+				"shadow": { "x": -0.52, "y": -21.97, "width": 85, "height": 79 }
+			},
+			"spark1": {
+				"spark1": { "x": 1.46, "y": 0.77, "rotation": -124.05, "width": 53, "height": 51 }
+			},
+			"spark2": {
+				"spark2": { "x": -4.79, "y": 2.36, "rotation": -40.47, "width": 86, "height": 95 }
+			},
+			"spark3": {
+				"spark3": { "x": 1.5, "y": 1.56, "rotation": -75.3, "width": 90, "height": 104 }
+			}
+		}
+	}
+],
+"animations": {
+	"hit": {
+		"slots": {
+			"glowing": {
+				"rgba": [
+					{
+						"color": "ffffff00",
+						"curve": [ 0.167, 1, 0.333, 1, 0.167, 1, 0.333, 1, 0.167, 1, 0.333, 1, 0, 0.79, 0.333, 1 ]
+					},
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"spark1": {
+				"rgba": [
+					{
+						"color": "ffffff00",
+						"curve": [ 0.111, 1, 0.222, 1, 0.111, 1, 0.222, 1, 0.111, 1, 0.222, 1, 0, 0.79, 0.333, 1.31 ]
+					},
+					{
+						"time": 0.3333,
+						"color": "ffffffff",
+						"curve": [ 0.389, 1, 0.444, 1, 0.389, 1, 0.444, 1, 0.389, 1, 0.444, 1, 0.333, 0.21, 0.444, 0 ]
+					},
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"spark2": {
+				"rgba": [
+					{
+						"color": "ffffff00",
+						"curve": [ 0.111, 1, 0.222, 1, 0.111, 1, 0.222, 1, 0.111, 1, 0.222, 1, 0, 0.79, 0.333, 1.31 ]
+					},
+					{
+						"time": 0.3333,
+						"color": "ffffffff",
+						"curve": [ 0.389, 1, 0.444, 1, 0.389, 1, 0.444, 1, 0.389, 1, 0.444, 1, 0.333, 0.21, 0.444, 0 ]
+					},
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"spark3": {
+				"rgba": [
+					{
+						"color": "ffffff00",
+						"curve": [ 0.111, 1, 0.222, 1, 0.111, 1, 0.222, 1, 0.111, 1, 0.222, 1, 0, 0.79, 0.333, 1.31 ]
+					},
+					{
+						"time": 0.3333,
+						"color": "ffffffff",
+						"curve": [ 0.389, 1, 0.444, 1, 0.389, 1, 0.444, 1, 0.389, 1, 0.444, 1, 0.333, 0.21, 0.444, 0 ]
+					},
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"spark1": {
+				"rotate": [
+					{
+						"curve": [ 0, -133.11, 0.333, -169.05 ]
+					},
+					{ "time": 0.5, "value": -169.05 }
+				],
+				"translate": [
+					{ "x": -0.51, "y": 0.01 }
+				],
+				"scale": [
+					{
+						"curve": [ 0, 1.394, 0.333, 1.813, 0, 1.394, 0.333, 1.813 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 1.5,
+						"y": 1.5,
+						"curve": [ 0.333, 1.106, 0.444, 1, 0.333, 1.106, 0.444, 1 ]
+					},
+					{ "time": 0.5 }
+				],
+				"shear": [
+					{ "x": 3.6 }
+				]
+			},
+			"spark2": {
+				"rotate": [
+					{
+						"curve": [ 0, -79.11, 0.333, -100.47 ]
+					},
+					{ "time": 0.5, "value": -100.47 }
+				],
+				"translate": [
+					{ "x": -2.05, "y": -0.6 }
+				],
+				"scale": [
+					{
+						"curve": [ 0, 1.394, 0.333, 1.813, 0, 1.394, 0.333, 1.813 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 1.5,
+						"y": 1.5,
+						"curve": [ 0.333, 1.106, 0.444, 1, 0.333, 1.106, 0.444, 1 ]
+					},
+					{ "time": 0.5 }
+				]
+			},
+			"spark3": {
+				"rotate": [
+					{
+						"curve": [ 0, 82.44, 0.333, 104.7 ]
+					},
+					{ "time": 0.5, "value": 104.7 }
+				],
+				"translate": [
+					{ "x": -5.05, "y": 1.32 },
+					{ "time": 0.5, "x": 1.14, "y": 1.32 }
+				],
+				"scale": [
+					{
+						"curve": [ 0, 1.394, 0.5, 2.313, 0, 1.394, 0.5, 2.313 ]
+					},
+					{ "time": 0.5, "x": 2, "y": 2 }
+				]
+			}
+		}
+	},
+	"idle": {
+		"slots": {
+			"glowing": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" }
+				]
+			},
+			"spark1": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"spark2": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"spark3": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,102 @@
+{
+"skeleton": {
+	"hash": "oXcXcnP5Rq0",
+	"spine": "4.1.24",
+	"x": -73.31,
+	"y": -124.02,
+	"width": 142,
+	"height": 284,
+	"images": "./images/",
+	"audio": "F:/SLENCE/Work/PINBALL/25-11-2024/Ball Left"
+},
+"bones": [
+	{ "name": "root", "x": -4.63, "y": 0.56, "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "bone", "parent": "root", "x": 6.61, "y": 55.96 },
+	{
+		"name": "bone glow",
+		"parent": "root",
+		"length": 156.54,
+		"x": 7.97,
+		"y": 58.68,
+		"scaleX": 0.4763,
+		"scaleY": 0.4763
+	},
+	{
+		"name": "bone glow2",
+		"parent": "root",
+		"length": 156.54,
+		"x": 7.97,
+		"y": 58.68,
+		"scaleX": 0.4763,
+		"scaleY": 0.4763
+	}
+],
+"slots": [
+	{ "name": "glow", "bone": "bone glow", "attachment": "glow" },
+	{ "name": "glow2", "bone": "bone glow2", "attachment": "glow" },
+	{ "name": "Ball Left", "bone": "bone", "attachment": "Ball Left" },
+	{ "name": "Ball Left2", "bone": "bone", "color": "ffffff00", "attachment": "Ball Left", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Ball Left": {
+				"Ball Left": { "x": -1.98, "y": -21.11, "width": 284, "height": 568 }
+			},
+			"Ball Left2": {
+				"Ball Left": { "x": -1.98, "y": -21.11, "width": 284, "height": 568 }
+			},
+			"glow": {
+				"glow": { "x": -8.81, "y": -26.11, "width": 406, "height": 730 }
+			},
+			"glow2": {
+				"glow": { "x": -8.81, "y": -26.11, "width": 406, "height": 730 }
+			}
+		}
+	}
+],
+"animations": {
+	"activate freeball": {
+		"slots": {
+			"Ball Left2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3667, "color": "ffffffff" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				]
+			},
+			"glow": {
+				"rgba": [
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.3, "color": "ffffff00" }
+				]
+			},
+			"glow2": {
+				"rgba": [
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.3, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bone glow": {
+				"scale": [
+					{},
+					{ "time": 0.3, "x": 2.958, "y": 2.958 },
+					{ "time": 0.5333 }
+				]
+			},
+			"bone glow2": {
+				"scale": [
+					{},
+					{ "time": 0.2333, "x": 2.141, "y": 2.141 },
+					{ "time": 0.5333 }
+				]
+			}
+		}
+	},
+	"idle": {}
+}
+}

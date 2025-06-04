@@ -1,0 +1,58 @@
+circle.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+bumper
+	bounds: 2, 685, 275, 276
+	offsets: 0, 1, 275, 277
+bumper 2
+	bounds: 556, 685, 275, 276
+	offsets: 0, 1, 275, 277
+bumper 3-1
+	bounds: 688, 45, 130, 127
+	offsets: 0, 1, 130, 128
+bumper 3-2
+	bounds: 556, 160, 130, 276
+	offsets: 0, 1, 131, 277
+bumper 3-3
+	bounds: 279, 129, 275, 276
+	offsets: 0, 1, 275, 277
+bumper 4-1
+	bounds: 688, 307, 129, 129
+	offsets: 0, 0, 130, 129
+bumper 4-2
+	bounds: 688, 174, 127, 131
+	offsets: 4, 0, 131, 131
+bumper 4-3
+	bounds: 803, 553, 126, 130
+	offsets: 0, 1, 126, 131
+bumper 4-4
+	bounds: 833, 832, 129, 126
+	offsets: 0, 1, 129, 127
+	rotate: 90
+bumper skin0
+	bounds: 279, 407, 275, 276
+	offsets: 0, 1, 275, 277
+bumper skin1
+	bounds: 279, 685, 275, 276
+	offsets: 0, 1, 275, 277
+bumper skin2
+	bounds: 2, 129, 275, 276
+	offsets: 0, 1, 275, 277
+bumper skin3
+	bounds: 2, 407, 275, 276
+	offsets: 0, 1, 275, 277
+center
+	bounds: 556, 33, 125, 126
+	offsets: 2, 2, 129, 129
+	rotate: 90
+center 2
+	bounds: 833, 704, 125, 126
+	offsets: 2, 2, 129, 129
+center off
+	bounds: 2, 2, 125, 126
+	offsets: 2, 2, 129, 129
+	rotate: 90
+circle base
+	bounds: 556, 438, 245, 245

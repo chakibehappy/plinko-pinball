@@ -1,0 +1,125 @@
+{
+"skeleton": {
+	"hash": "InGY+XCN0dQ",
+	"spine": "4.1.24",
+	"x": -136.29,
+	"y": -203.76,
+	"width": 227.32,
+	"height": 411.39,
+	"images": "./images/",
+	"audio": "F:/SLENCE/Work/PINBALL/10-9-2024/Oval"
+},
+"bones": [
+	{ "name": "root", "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "base", "parent": "root", "x": -20.96, "y": 60.73 },
+	{ "name": "bone top", "parent": "base", "x": -52.99, "y": 229.63 },
+	{ "name": "bone bot", "parent": "base", "x": 58.29, "y": -180.17 },
+	{ "name": "control", "parent": "root", "x": 334.09, "y": 27.17, "color": "abe323ff" },
+	{ "name": "base2", "parent": "root", "x": -37.25, "y": -30.77 }
+],
+"slots": [
+	{ "name": "base2", "bone": "base2", "attachment": "base2" },
+	{ "name": "base", "bone": "base", "attachment": "base" },
+	{ "name": "top circle", "bone": "bone top", "attachment": "top circle" },
+	{ "name": "bot circle", "bone": "bone bot", "attachment": "bot circle" }
+],
+"transform": [
+	{
+		"name": "control",
+		"bones": [ "bone bot" ],
+		"target": "control",
+		"x": -296.76,
+		"y": -146.61,
+		"mixRotate": 0,
+		"mixX": 0,
+		"mixScaleX": 0.35,
+		"mixShearY": 0
+	},
+	{
+		"name": "control2",
+		"order": 1,
+		"bones": [ "bone top" ],
+		"target": "control",
+		"x": -408.04,
+		"y": 263.2,
+		"mixRotate": 0,
+		"mixX": 0,
+		"mixScaleX": 0.35,
+		"mixShearY": 0
+	},
+	{
+		"name": "control base",
+		"order": 3,
+		"bones": [ "base" ],
+		"target": "control",
+		"x": -355.05,
+		"y": 33.56,
+		"mixRotate": 0,
+		"mixX": 0,
+		"mixScaleX": 0.2,
+		"mixShearY": 0
+	},
+	{
+		"name": "control shadow",
+		"order": 2,
+		"bones": [ "base2" ],
+		"target": "control",
+		"x": -355.05,
+		"y": -32.34,
+		"mixRotate": 0,
+		"mixX": 0,
+		"mixScaleX": 0.2,
+		"mixShearY": 0
+	}
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"base": {
+				"base": { "x": -9.98, "y": -23.46, "width": 426, "height": 756 }
+			},
+			"base2": {
+				"base2": { "path": "base", "color": "0000003b", "x": -22.33, "y": 1.26, "width": 426, "height": 756 }
+			},
+			"bot circle": {
+				"bot circle": { "x": -5.27, "y": -3.28, "width": 180, "height": 180 }
+			},
+			"top circle": {
+				"top circle": { "x": -1.98, "y": -15.09, "width": 180, "height": 180 }
+			}
+		}
+	}
+],
+"animations": {
+	"hit": {
+		"bones": {
+			"control": {
+				"scale": [
+					{},
+					{ "time": 0.1333, "x": 1.432, "y": 1.432 },
+					{ "time": 0.2333, "x": 0.899, "y": 0.899 },
+					{ "time": 0.3333 }
+				]
+			},
+			"base": {
+				"rotate": [
+					{},
+					{ "time": 0.0667, "value": -5.46 },
+					{ "time": 0.1667, "value": 0.7 },
+					{ "time": 0.2667, "value": -5.86 }
+				]
+			},
+			"base2": {
+				"rotate": [
+					{},
+					{ "time": 0.0667, "value": -5.46 },
+					{ "time": 0.1667, "value": 0.7 },
+					{ "time": 0.2667, "value": -5.86 }
+				]
+			}
+		}
+	},
+	"idle": {}
+}
+}

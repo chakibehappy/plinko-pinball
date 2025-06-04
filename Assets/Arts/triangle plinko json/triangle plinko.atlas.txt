@@ -1,0 +1,61 @@
+triangle plinko.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+base
+	bounds: 2, 424, 491, 512
+light 1
+	bounds: 464, 2, 460, 420
+	offsets: 4, 4, 468, 424
+light 2
+	bounds: 495, 424, 460, 420
+	offsets: 4, 4, 468, 424
+	rotate: 90
+light 3
+	bounds: 2, 2, 460, 420
+	offsets: 4, 4, 468, 424
+triangle light green
+	bounds: 917, 424, 208, 93
+	rotate: 90
+triangle light red
+	bounds: 917, 724, 212, 67
+	rotate: 90
+triangle light yellow
+	bounds: 926, 272, 72, 150
+
+triangle plinko_2.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+light box 1
+	bounds: 259, 294, 414, 290
+	rotate: 90
+light box 1 shadow
+	bounds: 551, 294, 414, 301
+	rotate: 90
+light box 2
+	bounds: 2, 2, 414, 290
+light box 3
+	bounds: 418, 2, 414, 290
+refleksi
+	bounds: 2, 294, 457, 255
+	offsets: 7, 7, 464, 270
+	rotate: 90
+triangle light
+	bounds: 2, 753, 223, 152
+
+triangle plinko_3.png
+	size: 512, 1024
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+light box 2 shadow
+	bounds: 2, 2, 414, 301
+light box 3 shadow
+	bounds: 2, 305, 414, 301
+	offsets: 0, 0, 415, 301
+shadow
+	bounds: 2, 608, 441, 390
+	offsets: 53, 0, 496, 612

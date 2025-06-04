@@ -1,0 +1,12 @@
+oval bumper.png
+	size: 512, 256
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+base
+	bounds: 2, 2, 213, 378
+	rotate: 90
+bot circle
+	bounds: 382, 33, 90, 90
+top circle
+	bounds: 382, 125, 90, 90

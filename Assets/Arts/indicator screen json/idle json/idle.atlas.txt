@@ -1,0 +1,15 @@
+idle.png
+	size: 1024, 256
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+1
+	bounds: 2, 2, 462, 104
+alien object
+	bounds: 665, 205, 340, 44
+attack all
+	bounds: 466, 21, 305, 85
+base
+	bounds: 2, 106, 494, 143
+ufo
+	bounds: 497, 108, 166, 130

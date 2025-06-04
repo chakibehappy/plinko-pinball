@@ -1,0 +1,31 @@
+jp slot animation.png
+	size: 256, 256
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+1
+	bounds: 36, 4, 21, 31
+	offsets: 0, 0, 22, 32
+	rotate: 90
+2
+	bounds: 94, 17, 32, 25
+	offsets: 0, 1, 33, 26
+3
+	bounds: 2, 2, 32, 23
+	offsets: 0, 1, 33, 24
+4
+	bounds: 129, 38, 26, 33
+	offsets: 1, 0, 27, 33
+5
+	bounds: 128, 13, 33, 23
+	offsets: 1, 0, 34, 24
+6
+	bounds: 94, 44, 33, 27
+	offsets: 1, 0, 34, 28
+box
+	bounds: 2, 27, 44, 44
+box glow
+	bounds: 48, 27, 44, 44
+light_yellow2
+	bounds: 2, 73, 160, 160
+	offsets: 13, 13, 186, 186

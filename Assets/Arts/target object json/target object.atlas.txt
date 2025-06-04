@@ -1,0 +1,29 @@
+target object.png
+	size: 1024, 256
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+BASE
+	bounds: 151, 50, 128, 203
+BASE shadow
+	bounds: 2, 13, 148, 240
+LIGHT1
+	bounds: 428, 14, 145, 92
+	offsets: 0, 0, 145, 93
+LIGHT2
+	bounds: 413, 108, 145, 92
+	rotate: 90
+LIGHT3
+	bounds: 281, 5, 145, 92
+TOP
+	bounds: 281, 99, 154, 130
+	rotate: 90
+TOP LIGHT
+	bounds: 151, 2, 72, 47
+TOP LIGHT on
+	bounds: 575, 42, 72, 47
+	rotate: 90
+refleksi
+	bounds: 507, 116, 137, 87
+	offsets: 8, 6, 157, 106
+	rotate: 90

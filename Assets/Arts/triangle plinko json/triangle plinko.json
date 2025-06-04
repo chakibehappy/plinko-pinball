@@ -1,0 +1,210 @@
+{
+"skeleton": {
+	"hash": "iGMdgvA89tI",
+	"spine": "4.1.24",
+	"x": -213.97,
+	"y": -335.4,
+	"width": 498.76,
+	"height": 611.8,
+	"images": "./images/",
+	"audio": "F:/SLENCE/Work/PINBALL/10-9-2024/Triangle"
+},
+"bones": [
+	{ "name": "root", "scaleX": 0.5, "scaleY": 0.5 }
+],
+"slots": [
+	{ "name": "shadow", "bone": "root", "color": "ffffff64", "attachment": "shadow" },
+	{ "name": "light box 2 shadow", "bone": "root", "color": "ffffff41", "attachment": "light box 2 shadow" },
+	{ "name": "light box 3 shadow", "bone": "root", "color": "ffffff41" },
+	{ "name": "light box 1 shadow", "bone": "root", "color": "ffffff41" },
+	{ "name": "refleksi", "bone": "root", "attachment": "refleksi" },
+	{ "name": "base", "bone": "root", "attachment": "base" },
+	{ "name": "triangle light", "bone": "root", "attachment": "triangle light" },
+	{ "name": "triangle light red", "bone": "root", "attachment": "triangle light red" },
+	{ "name": "triangle light green", "bone": "root", "attachment": "triangle light green" },
+	{ "name": "triangle light yellow", "bone": "root", "attachment": "triangle light yellow" },
+	{ "name": "light box 1", "bone": "root", "attachment": "light box 1" },
+	{ "name": "light box 2", "bone": "root", "attachment": "light box 2" },
+	{ "name": "light box 3", "bone": "root", "attachment": "light box 3" },
+	{ "name": "light 1", "bone": "root", "attachment": "light 1" },
+	{ "name": "light 2", "bone": "root", "attachment": "light 2" },
+	{ "name": "light 3", "bone": "root", "attachment": "light 3" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"base": {
+				"base": { "x": 72.7, "y": 34.8, "width": 982, "height": 1024 }
+			},
+			"light 1": {
+				"light 1": { "x": 53.7, "y": 128.8, "width": 936, "height": 848 }
+			},
+			"light 2": {
+				"light 2": { "x": 53.7, "y": 128.8, "width": 936, "height": 848 }
+			},
+			"light 3": {
+				"light 3": { "x": 53.7, "y": 128.8, "width": 936, "height": 848 }
+			},
+			"light box 1": {
+				"light box 1": { "x": 125.7, "y": -169.2, "width": 828, "height": 580 }
+			},
+			"light box 1 shadow": {
+				"light box 1 shadow": { "x": 125.08, "y": -338.16, "width": 828, "height": 602 }
+			},
+			"light box 2": {
+				"light box 2": { "x": 125.7, "y": -169.2, "width": 828, "height": 580 }
+			},
+			"light box 2 shadow": {
+				"light box 2 shadow": { "x": 125.08, "y": -333.63, "width": 828, "height": 602 }
+			},
+			"light box 3": {
+				"light box 3": { "x": 125.7, "y": -169.2, "width": 828, "height": 580 }
+			},
+			"light box 3 shadow": {
+				"light box 3 shadow": { "x": 125.58, "y": -333.63, "width": 829, "height": 602 }
+			},
+			"refleksi": {
+				"refleksi": { "x": 106.09, "y": -232.18, "width": 927, "height": 540 }
+			},
+			"shadow": {
+				"shadow": { "x": 68.06, "y": -59.29, "width": 992, "height": 1223 }
+			},
+			"triangle light": {
+				"triangle light": { "x": -13.3, "y": 302.8, "width": 446, "height": 304 }
+			},
+			"triangle light green": {
+				"triangle light green": { "x": 1.7, "y": 243.8, "width": 416, "height": 186 }
+			},
+			"triangle light red": {
+				"triangle light red": { "x": -4.3, "y": 387.8, "width": 424, "height": 134 }
+			},
+			"triangle light yellow": {
+				"triangle light yellow": { "x": -164.3, "y": 302.8, "width": 144, "height": 300 }
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {
+		"slots": {
+			"light 1": {
+				"attachment": [
+					{ "time": 0.9667 }
+				]
+			},
+			"light 2": {
+				"attachment": [
+					{},
+					{ "time": 0.9667, "name": "light 2" },
+					{ "time": 1.8333 },
+					{ "time": 2.7333, "name": "light 2" }
+				]
+			},
+			"light 3": {
+				"attachment": [
+					{},
+					{ "time": 1.8333, "name": "light 3" },
+					{ "time": 2.7333 }
+				]
+			},
+			"light box 1": {
+				"attachment": [
+					{ "time": 0.4 },
+					{ "time": 1.8, "name": "light box 1" },
+					{ "time": 2.2 },
+					{ "time": 3.6667, "name": "light box 1" }
+				]
+			},
+			"light box 1 shadow": {
+				"attachment": [
+					{ "name": "light box 1 shadow" },
+					{ "time": 0.4 },
+					{ "time": 1.8, "name": "light box 1 shadow" },
+					{ "time": 2.2 },
+					{ "time": 3.6667, "name": "light box 1 shadow" }
+				]
+			},
+			"light box 2": {
+				"attachment": [
+					{},
+					{ "time": 0.4, "name": "light box 2" },
+					{ "time": 0.8667 },
+					{ "time": 1.3, "name": "light box 2" },
+					{ "time": 1.8 },
+					{ "time": 2.2, "name": "light box 2" },
+					{ "time": 2.8 },
+					{ "time": 3.3667, "name": "light box 2" },
+					{ "time": 3.6667 }
+				]
+			},
+			"light box 2 shadow": {
+				"attachment": [
+					{},
+					{ "time": 0.4, "name": "light box 2 shadow" },
+					{ "time": 0.8667 },
+					{ "time": 1.3, "name": "light box 2 shadow" },
+					{ "time": 1.8 },
+					{ "time": 2.2, "name": "light box 2 shadow" },
+					{ "time": 2.8 },
+					{ "time": 3.3667, "name": "light box 2 shadow" },
+					{ "time": 3.6667 }
+				]
+			},
+			"light box 3": {
+				"attachment": [
+					{},
+					{ "time": 0.8667, "name": "light box 3" },
+					{ "time": 1.3 },
+					{ "time": 2.8, "name": "light box 3" },
+					{ "time": 3.3667 }
+				]
+			},
+			"light box 3 shadow": {
+				"attachment": [
+					{ "time": 0.8667, "name": "light box 3 shadow" },
+					{ "time": 1.3 },
+					{ "time": 2.8, "name": "light box 3 shadow" },
+					{ "time": 3.3667 }
+				]
+			},
+			"triangle light green": {
+				"attachment": [
+					{},
+					{ "time": 0.7667, "name": "triangle light green" },
+					{ "time": 1.1333 },
+					{ "time": 1.7333, "name": "triangle light green" },
+					{ "time": 2.1333 },
+					{ "time": 2.5333, "name": "triangle light green" },
+					{ "time": 3.0333 },
+					{ "time": 3.6667, "name": "triangle light green" }
+				]
+			},
+			"triangle light red": {
+				"attachment": [
+					{},
+					{ "time": 0.4333, "name": "triangle light red" },
+					{ "time": 0.7667 },
+					{ "time": 1.7333, "name": "triangle light red" },
+					{ "time": 2.1333 },
+					{ "time": 2.5333, "name": "triangle light red" },
+					{ "time": 3.0333 },
+					{ "time": 3.6667, "name": "triangle light red" }
+				]
+			},
+			"triangle light yellow": {
+				"attachment": [
+					{},
+					{ "time": 1.1333, "name": "triangle light yellow" },
+					{ "time": 1.4667 },
+					{ "time": 1.7333, "name": "triangle light yellow" },
+					{ "time": 2.1333 },
+					{ "time": 2.5333, "name": "triangle light yellow" },
+					{ "time": 3.0333 },
+					{ "time": 3.6667, "name": "triangle light yellow" }
+				]
+			}
+		}
+	}
+}
+}

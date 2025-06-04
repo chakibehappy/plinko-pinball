@@ -1,0 +1,91 @@
+coin burst.png
+	size: 2048, 256
+	filter: Linear, Linear
+	pma: true
+	scale: 0.2
+CoinBorder
+	bounds: 2, 18, 18, 152
+	rotate: 90
+Flare_03_bl
+	bounds: 421, 43, 205, 205
+Glow_Neo
+	bounds: 1035, 146, 102, 102
+Spin_noBorder
+	bounds: 1035, 38, 94, 95
+coin/11.png/Flip-In2_00
+	bounds: 628, 23, 48, 48
+	offsets: 10, 7, 69, 63
+coin/11.png/Flip-In2_01
+	bounds: 1006, 2, 49, 40
+	offsets: 10, 12, 69, 63
+	rotate: 90
+coin/11.png/Flip-In2_02
+	bounds: 207, 4, 49, 32
+	offsets: 10, 16, 69, 63
+coin/11.png/Flip-In2_03
+	bounds: 411, 18, 49, 23
+	offsets: 10, 21, 69, 63
+coin/11.png/Flip-In2_04
+	bounds: 53, 2, 49, 14
+	offsets: 10, 26, 69, 63
+coin/11.png/Flip-In2_05
+	bounds: 689, 190, 49, 6
+	offsets: 10, 30, 69, 63
+	rotate: 90
+coin/11.png/Flip-In2_06
+	bounds: 104, 5, 49, 11
+	offsets: 10, 26, 69, 63
+coin/11.png/Flip-In2_07
+	bounds: 462, 20, 49, 21
+	offsets: 10, 21, 69, 63
+coin/11.png/Flip-In2_08
+	bounds: 309, 10, 49, 31
+	offsets: 10, 15, 69, 63
+coin/11.png/Flip-In2_09
+	bounds: 964, 41, 49, 40
+	offsets: 10, 10, 69, 63
+	rotate: 90
+coin/11.png/Flip-In2_10
+	bounds: 630, 200, 49, 48
+	offsets: 10, 8, 69, 63
+coin/11.png/Flip-In2_11
+	bounds: 820, 33, 49, 40
+	offsets: 10, 12, 69, 63
+	rotate: 90
+coin/11.png/Flip-In2_12
+	bounds: 258, 10, 49, 31
+	offsets: 10, 17, 69, 63
+coin/11.png/Flip-In2_13
+	bounds: 360, 18, 49, 23
+	offsets: 10, 21, 69, 63
+coin/11.png/Flip-In2_14
+	bounds: 2, 2, 49, 14
+	offsets: 10, 26, 69, 63
+coin/11.png/Flip-In2_15
+	bounds: 681, 199, 49, 6
+	offsets: 10, 30, 69, 63
+	rotate: 90
+coin/11.png/Flip-In2_16
+	bounds: 258, 3, 49, 5
+	offsets: 10, 29, 69, 63
+coin/11.png/Flip-In2_17
+	bounds: 862, 25, 49, 19
+	offsets: 10, 22, 69, 63
+	rotate: 90
+coin/11.png/Flip-In2_18
+	bounds: 156, 3, 49, 33
+	offsets: 10, 15, 69, 63
+coin/11.png/Flip-In2_19
+	bounds: 819, 196, 49, 47
+	offsets: 10, 7, 69, 63
+dust spark
+	bounds: 888, 92, 145, 156
+light_yellow
+	bounds: 214, 43, 205, 205
+light_yellow2
+	bounds: 888, 16, 74, 74
+shine white
+	bounds: 2, 38, 210, 210
+shine yellow
+	bounds: 628, 37, 211, 258
+	rotate: 90

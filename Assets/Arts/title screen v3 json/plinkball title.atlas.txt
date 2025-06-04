@@ -1,0 +1,82 @@
+plinkball title.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+	scale: 0.4
+BG
+	bounds: 2, 250, 433, 769
+UFO
+	bounds: 2, 2, 283, 246
+	offsets: 8, 10, 291, 304
+body
+	bounds: 882, 366, 104, 126
+	offsets: 1, 2, 108, 130
+	rotate: 90
+explosion fx1
+	bounds: 847, 168, 195, 157
+	offsets: 12, 12, 220, 182
+	rotate: 90
+explosion fx2
+	bounds: 287, 2, 75, 41
+	offsets: 16, 12, 102, 67
+explosion fx3
+	bounds: 287, 175, 87, 73
+	offsets: 20, 37, 133, 143
+explosion fx4
+	bounds: 630, 6, 207, 160
+	offsets: 55, 94, 433, 370
+explosion spark
+	bounds: 437, 168, 257, 408
+	offsets: 6, 8, 270, 428
+	rotate: 90
+explosion1
+	bounds: 882, 657, 172, 113
+	offsets: 4, 12, 182, 132
+	rotate: 90
+eyes
+	bounds: 882, 472, 183, 105
+	offsets: 0, 0, 184, 111
+	rotate: 90
+hand L 2
+	bounds: 287, 45, 121, 341
+	offsets: 2, 2, 128, 345
+	rotate: 90
+lightning
+	bounds: 437, 427, 443, 592
+	offsets: 7, 11, 457, 614
+mouth
+	bounds: 364, 7, 71, 36
+	offsets: 0, 0, 72, 36
+nose
+	bounds: 376, 201, 50, 47
+plinkball
+	bounds: 839, 22, 144, 144
+spark fx
+	bounds: 882, 831, 113, 188
+	offsets: 20, 7, 140, 198
+
+plinkball title_2.png
+	size: 1024, 512
+	filter: Linear, Linear
+	pma: true
+	scale: 0.4
+UFO light
+	bounds: 488, 50, 245, 218
+	offsets: 10, 10, 265, 238
+	rotate: 90
+UFO light additive
+	bounds: 268, 50, 245, 218
+	offsets: 10, 10, 265, 238
+	rotate: 90
+explosion main
+	bounds: 2, 2, 205, 192
+	offsets: 4, 12, 209, 207
+hand L 1
+	bounds: 2, 208, 109, 87
+	offsets: 1, 1, 111, 90
+hand R
+	bounds: 113, 196, 99, 154
+	offsets: 0, 1, 102, 155
+	rotate: 90
+head
+	bounds: 708, 4, 251, 291

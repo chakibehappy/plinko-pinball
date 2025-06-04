@@ -1,0 +1,13 @@
+ball left.png
+	size: 1024, 256
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+Ball Left
+	bounds: 353, 47, 142, 282
+	offsets: 0, 1, 142, 284
+	rotate: 90
+glow
+	bounds: 2, 2, 187, 349
+	offsets: 8, 8, 203, 365
+	rotate: 90

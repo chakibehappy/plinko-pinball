@@ -1,0 +1,66 @@
+toy bash.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+LIGHT3
+	bounds: 506, 594, 424, 367
+	rotate: 90
+LIGHT4
+	bounds: 502, 151, 424, 367
+	rotate: 90
+UFO
+	bounds: 2, 151, 498, 430
+UFO shadow
+	bounds: 2, 583, 502, 435
+	offsets: 0, 1, 503, 437
+arm R
+	bounds: 2, 18, 133, 131
+	offsets: 1, 0, 136, 131
+board
+	bounds: 250, 92, 191, 57
+body
+	bounds: 871, 79, 118, 151
+	offsets: 0, 0, 119, 151
+	rotate: 90
+eeys red
+	bounds: 871, 199, 187, 104
+	rotate: 90
+eyes
+	bounds: 871, 388, 187, 104
+	rotate: 90
+eyes blue
+	bounds: 875, 831, 187, 104
+	rotate: 90
+eyes green
+	bounds: 875, 577, 187, 104
+	rotate: 90
+gun light off
+	bounds: 443, 62, 97, 87
+	offsets: 0, 0, 97, 88
+gun light on
+	bounds: 137, 27, 111, 122
+hand L
+	bounds: 250, 2, 89, 88
+	offsets: 0, 0, 95, 88
+
+toy bash_2.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+LIGHT BASE
+	bounds: 2, 390, 424, 367
+LIGHT1
+	bounds: 428, 371, 424, 367
+LIGHT2
+	bounds: 2, 2, 424, 367
+arm L
+	bounds: 2, 763, 164, 236
+head
+	bounds: 168, 759, 240, 282
+	offsets: 0, 0, 241, 283
+	rotate: 90
+refleksi
+	bounds: 452, 740, 513, 259
+	offsets: 1, 8, 515, 285

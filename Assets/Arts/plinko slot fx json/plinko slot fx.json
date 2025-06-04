@@ -1,0 +1,256 @@
+{
+"skeleton": {
+	"hash": "7P0uRLqYSoY",
+	"spine": "4.1.24",
+	"x": -106.86,
+	"y": -0.46,
+	"width": 224.33,
+	"height": 1071,
+	"images": "./images/",
+	"audio": "D:/freelance/IDN/Pinball/plinko slot revision/images"
+},
+"bones": [
+	{ "name": "root" },
+	{
+		"name": "light",
+		"parent": "root",
+		"length": 337.33,
+		"rotation": 89.81,
+		"x": -5.52,
+		"y": 46.77,
+		"color": "9b9b9b00"
+	},
+	{ "name": "star1", "parent": "root", "length": 97.5, "rotation": 90, "x": 20.92, "y": 776.61 },
+	{ "name": "slot", "parent": "root", "length": 75.48, "rotation": 0.63, "x": -27.93, "y": 10.74 },
+	{ "name": "sparkle", "parent": "root", "length": 140.16, "rotation": 90, "x": -18.6, "y": 252.34 },
+	{ "name": "star2", "parent": "root", "length": 63.73, "rotation": 90, "x": -37.83, "y": 566.97 },
+	{ "name": "star3", "parent": "root", "length": 49.36, "rotation": 92.79, "x": 40.33, "y": 373.38 }
+],
+"slots": [
+	{ "name": "reward slot", "bone": "slot", "attachment": "reward slot" },
+	{ "name": "lose slot", "bone": "slot", "attachment": "lose slot" },
+	{ "name": "slot JP", "bone": "slot", "attachment": "slot JP" },
+	{ "name": "lose light", "bone": "light", "attachment": "lose light" },
+	{ "name": "win light", "bone": "light", "attachment": "win light" },
+	{ "name": "win sparkle", "bone": "sparkle", "attachment": "win sparkle" },
+	{ "name": "win star1", "bone": "star1", "attachment": "win star1" },
+	{ "name": "win star2", "bone": "star2", "attachment": "win star2" },
+	{ "name": "win star3", "bone": "star3", "attachment": "win star3" },
+	{ "name": "JP light", "bone": "light", "attachment": "JP light" },
+	{ "name": "JP sparkle", "bone": "sparkle", "attachment": "JP sparkle" },
+	{ "name": "jp star1", "bone": "star1", "attachment": "jp star1" },
+	{ "name": "jp star2", "bone": "star2", "attachment": "jp star2" },
+	{ "name": "jp star3", "bone": "star3", "attachment": "jp star3" }
+],
+"skins": [
+	{
+		"name": "jackpot",
+		"attachments": {
+			"JP light": {
+				"JP light": { "x": 419.29, "y": -2.42, "rotation": -89.81, "width": 175, "height": 933 }
+			},
+			"JP sparkle": {
+				"JP sparkle": { "x": 289.71, "y": -14.54, "rotation": -90, "width": 205, "height": 1057 }
+			},
+			"jp star1": {
+				"jp star1": { "x": 58.94, "y": -1.86, "rotation": -90, "width": 190, "height": 194 }
+			},
+			"jp star2": {
+				"jp star2": { "x": 32.58, "y": 0.9, "rotation": -90, "width": 125, "height": 128 }
+			},
+			"jp star3": {
+				"jp star3": { "x": 21.14, "y": -0.97, "rotation": -92.79, "width": 125, "height": 128 }
+			},
+			"slot JP": {
+				"slot JP": { "x": 26.53, "y": 75.52, "rotation": -0.63, "width": 174, "height": 174 }
+			}
+		}
+	},
+	{
+		"name": "lose",
+		"attachments": {
+			"lose light": {
+				"lose light": { "x": 271.29, "y": -3.44, "rotation": -89.81, "width": 175, "height": 637 }
+			},
+			"lose slot": {
+				"lose slot": { "x": 27.24, "y": 75.51, "rotation": -0.63, "width": 174, "height": 174 }
+			}
+		}
+	},
+	{
+		"name": "win",
+		"attachments": {
+			"reward slot": {
+				"reward slot": { "x": 26.23, "y": 75.52, "rotation": -0.63, "width": 174, "height": 174 }
+			},
+			"win light": {
+				"win light": { "x": 419.29, "y": -2.11, "rotation": -89.81, "width": 175, "height": 933 }
+			},
+			"win sparkle": {
+				"win sparkle": { "x": 289.71, "y": -14.24, "rotation": -90, "width": 205, "height": 1057 }
+			},
+			"win star1": {
+				"win star1": { "x": 58.94, "y": -1.55, "rotation": -90, "width": 190, "height": 194 }
+			},
+			"win star2": {
+				"win star2": { "x": 32.58, "y": 1.21, "rotation": -90, "width": 125, "height": 128 }
+			},
+			"win star3": {
+				"win star3": { "x": 21.16, "y": -0.67, "rotation": -92.79, "width": 125, "height": 128 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"JP light": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"JP sparkle": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"jp star1": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.5333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"jp star2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"jp star3": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.7667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"lose light": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"win light": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"win sparkle": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"win star1": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.5333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"win star2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"win star3": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.7667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"light": {
+				"translate": [
+					{
+						"x": -0.1,
+						"y": -31.43,
+						"curve": [ 0.083, 0, -0.533, 0, 0.083, 0, -0.533, 0 ]
+					},
+					{ "time": 0.8 }
+				],
+				"scale": [
+					{
+						"x": 0.314,
+						"curve": [ 0.083, 1, -0.533, 1, 0.333, 1, -0.533, 1 ]
+					},
+					{ "time": 0.8 }
+				]
+			},
+			"sparkle": {
+				"translate": [
+					{
+						"y": -404.16,
+						"curve": [ 0, 0, 0.889, 0, 0, -59.26, 0.889, 211.09 ]
+					},
+					{ "time": 1.3333, "y": 211.09 }
+				]
+			},
+			"star1": {
+				"translate": [
+					{
+						"y": -444.27,
+						"curve": [ 0, 0, 0.261, 0, 0, -316.89, 0.261, -3.55 ]
+					},
+					{ "time": 0.6667 }
+				]
+			},
+			"star2": {
+				"translate": [
+					{
+						"y": -444.27,
+						"curve": [ 0.278, 0, 0.556, 0, 0, -196.53, 0.556, 0 ]
+					},
+					{ "time": 0.8333 }
+				]
+			},
+			"star3": {
+				"translate": [
+					{
+						"x": 21.65,
+						"y": -443.74,
+						"curve": [ 0, 9.54, 0.667, 0, 0, -195.63, 0.667, 0 ]
+					},
+					{ "time": 1 }
+				]
+			}
+		}
+	}
+}
+}

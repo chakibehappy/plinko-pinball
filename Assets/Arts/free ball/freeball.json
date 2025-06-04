@@ -1,0 +1,396 @@
+{
+"skeleton": {
+	"hash": "tt4lq5Qvpbg",
+	"spine": "4.1.24",
+	"x": -41.5,
+	"y": -39.77,
+	"width": 82.5,
+	"height": 82.5,
+	"images": "./images/",
+	"audio": "F:/SLENCE/Work/PINBALL/19-11-2024/Hole"
+},
+"bones": [
+	{ "name": "root", "x": -0.89, "y": 0.02, "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "bone", "parent": "root", "x": 1.2, "y": 4.33 },
+	{ "name": "bone2", "parent": "bone", "length": 58.55, "rotation": -78.44, "x": 13.82, "y": 63.88 },
+	{ "name": "bone3", "parent": "bone", "length": 54.33, "rotation": -138.89, "x": 64.41, "y": 17.21 },
+	{ "name": "bone4", "parent": "bone", "length": 52.59, "rotation": 153.82, "x": 43.81, "y": -47.72 },
+	{ "name": "bone5", "parent": "bone", "length": 50.42, "rotation": 100.73, "x": -14.86, "y": -59.19 },
+	{ "name": "bone6", "parent": "bone", "length": 50.32, "rotation": 40.38, "x": -58.67, "y": -16.43 },
+	{ "name": "bone7", "parent": "bone", "length": 45.71, "rotation": -38.67, "x": -44.59, "y": 44.33 },
+	{
+		"name": "control",
+		"parent": "bone",
+		"length": 56.33,
+		"rotation": -15.47,
+		"x": 146.48,
+		"y": -5.11,
+		"scaleX": 1.3372,
+		"color": "abe323ff"
+	},
+	{
+		"name": "black",
+		"parent": "bone",
+		"length": 24.93,
+		"rotation": -90.7,
+		"x": -0.52,
+		"y": -0.61,
+		"scaleX": 0.0629,
+		"scaleY": 0.0629
+	}
+],
+"slots": [
+	{ "name": "base", "bone": "bone", "attachment": "base" },
+	{ "name": "clip", "bone": "bone", "attachment": "clip" },
+	{ "name": "red", "bone": "bone", "attachment": "red" },
+	{ "name": "blue", "bone": "bone", "color": "ffffff00", "attachment": "blue" },
+	{ "name": "clipping", "bone": "bone", "attachment": "clipping" },
+	{ "name": "1", "bone": "bone2", "attachment": "1" },
+	{ "name": "2", "bone": "bone3", "attachment": "2" },
+	{ "name": "3", "bone": "bone4", "attachment": "3" },
+	{ "name": "4", "bone": "bone5", "attachment": "4" },
+	{ "name": "5", "bone": "bone6", "attachment": "5" },
+	{ "name": "6", "bone": "bone7", "attachment": "6" }
+],
+"transform": [
+	{
+		"name": "1",
+		"bones": [ "bone2" ],
+		"target": "control",
+		"rotation": -78.97,
+		"x": -132.01,
+		"y": 70.22,
+		"mixRotate": 0.5,
+		"mixX": 0,
+		"mixScaleX": 0.5,
+		"mixShearY": 0
+	},
+	{
+		"name": "2",
+		"order": 1,
+		"bones": [ "bone3" ],
+		"target": "control",
+		"rotation": -139.42,
+		"x": -81.86,
+		"y": 23.08,
+		"mixRotate": 0.5,
+		"mixX": 0,
+		"mixScaleX": 0.5,
+		"mixShearY": 0
+	},
+	{
+		"name": "3",
+		"order": 2,
+		"bones": [ "bone4" ],
+		"target": "control",
+		"rotation": 153.29,
+		"x": -103.06,
+		"y": -41.66,
+		"mixRotate": 0.5,
+		"mixX": 0,
+		"mixScaleX": 0.5,
+		"mixShearY": 0
+	},
+	{
+		"name": "4",
+		"order": 3,
+		"bones": [ "bone5" ],
+		"target": "control",
+		"rotation": 100.2,
+		"x": -161.83,
+		"y": -52.59,
+		"mixRotate": 0.5,
+		"mixX": 0,
+		"mixScaleX": 0.5,
+		"mixShearY": 0
+	},
+	{
+		"name": "5",
+		"order": 4,
+		"bones": [ "bone6" ],
+		"target": "control",
+		"mixRotate": 0.5,
+		"mixX": 0,
+		"mixScaleX": 0.5,
+		"mixShearY": 0
+	},
+	{
+		"name": "6",
+		"order": 5,
+		"bones": [ "bone7" ],
+		"target": "control",
+		"rotation": -23,
+		"x": -190.6,
+		"y": 51.2,
+		"mixRotate": 0.5,
+		"mixX": 0,
+		"mixScaleX": 0.5,
+		"mixShearY": 0
+	}
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"1": {
+				"1": { "x": 28.3, "y": -22.88, "rotation": 78.44, "width": 67, "height": 65 }
+			},
+			"2": {
+				"2": { "x": 19.32, "y": -18.67, "rotation": 138.89, "width": 54, "height": 81 }
+			},
+			"3": {
+				"3": { "x": 27.08, "y": -13.75, "rotation": -153.82, "width": 80, "height": 59 }
+			},
+			"4": {
+				"4": { "x": 24.62, "y": -21.9, "rotation": -100.73, "width": 69, "height": 66 }
+			},
+			"5": {
+				"5": { "x": 14.3, "y": -16.75, "rotation": -40.38, "width": 53, "height": 82 }
+			},
+			"6": {
+				"6": { "x": 25.1, "y": -13.16, "rotation": 22.47, "width": 80, "height": 59 }
+			},
+			"base": {
+				"base": { "x": 0.07, "y": -1.42, "width": 165, "height": 165 }
+			},
+			"blue": {
+				"blue": { "x": 0.57, "y": 0.08, "scaleX": 1.0159, "scaleY": 1.0159, "width": 138, "height": 138 }
+			},
+			"clip": {
+				"clip": {
+					"type": "mesh",
+					"uvs": [ 0.76341, 0.05766, 0.91434, 0.20921, 0.97914, 0.33942, 0.99289, 0.41518, 0.99365, 0.58404, 0.97422, 0.67079, 0.91393, 0.79175, 0.76531, 0.9396, 0.60465, 0.99293, 0.41669, 0.99316, 0.33052, 0.97532, 0.20836, 0.91356, 0.08623, 0.79185, 0.01744, 0.65376, 0.00714, 0.59849, 0.00688, 0.41681, 0.02425, 0.33263, 0.09307, 0.19482, 0.23421, 0.0641, 0.38434, 0.00733, 0.5984, 0.00569 ],
+					"triangles": [ 12, 13, 14, 14, 15, 12, 4, 6, 3, 3, 1, 2, 0, 1, 20, 3, 20, 1, 5, 6, 4, 17, 15, 16, 15, 11, 12, 18, 15, 17, 15, 3, 11, 3, 18, 19, 19, 20, 3, 18, 3, 15, 3, 10, 11, 3, 6, 10, 10, 6, 9, 7, 8, 6, 8, 9, 6 ],
+					"vertices": [ 37.11, 61.98, 58.09, 40.92, 67.1, 22.82, 69.01, 12.29, 69.12, -11.18, 66.42, -23.24, 58.04, -40.05, 37.38, -60.6, 15.05, -68.02, -11.08, -68.05, -23.06, -65.57, -40.04, -56.98, -57.01, -40.07, -66.58, -20.87, -68.01, -13.19, -68.04, 12.06, -65.63, 23.76, -56.06, 42.92, -36.45, 61.09, -15.58, 68.98, 14.18, 69.21 ],
+					"hull": 21,
+					"edges": [ 0, 40, 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 24, 24, 26, 26, 28, 28, 30, 30, 32, 32, 34, 34, 36, 36, 38, 38, 40 ],
+					"width": 139,
+					"height": 139
+				}
+			},
+			"clipping": {
+				"clipping": {
+					"type": "clipping",
+					"end": "clipping",
+					"vertexCount": 25,
+					"vertices": [ 21.35, 59.98, 33.31, 55, 43.69, 46.5, 52.79, 37.21, 60.97, 20.77, 64.1, 4.42, 62.8, -10.1, 58.26, -25.23, 51.04, -38.58, 37.99, -51.66, 18.24, -60.85, -2.69, -63.3, -20.89, -59.91, -36.31, -51.69, -51.72, -36.33, -57.44, -26.04, -61.7, -11.92, -63.29, -0.04, -61.74, 11.01, -57.02, 26.49, -50.86, 39.02, -32.4, 54.72, -14.5, 62.04, 1.36, 63.67, 12.92, 62.89 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"red": {
+				"red": { "x": 0.57, "y": 0.08, "scaleX": 1.0159, "scaleY": 1.0159, "width": 138, "height": 138 }
+			}
+		}
+	}
+],
+"animations": {
+	"close": {
+		"slots": {
+			"1": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"2": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"3": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"4": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"5": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"6": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"blue": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00" }
+				]
+			},
+			"red": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"control": {
+				"rotate": [
+					{ "value": -40.52, "curve": "stepped" },
+					{ "time": 0.1, "value": -40.52 },
+					{ "time": 0.2667 }
+				],
+				"scale": [
+					{ "x": 0.156, "curve": "stepped" },
+					{ "time": 0.1, "x": 0.156 },
+					{ "time": 0.2667, "curve": "stepped" },
+					{ "time": 0.3333 }
+				]
+			}
+		}
+	},
+	"idle close": {
+		"slots": {
+			"red": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff6e" },
+					{ "time": 0.6667, "color": "ffffffff" }
+				]
+			}
+		}
+	},
+	"idle open": {
+		"slots": {
+			"1": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"2": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"3": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"4": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"5": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"6": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"blue": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff4e" },
+					{ "time": 0.6667, "color": "ffffffff" }
+				]
+			},
+			"red": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"control": {
+				"rotate": [
+					{ "value": -40.52 }
+				],
+				"scale": [
+					{ "x": 0.156 }
+				]
+			}
+		}
+	},
+	"open": {
+		"slots": {
+			"1": {
+				"rgba": [
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00" }
+				]
+			},
+			"2": {
+				"rgba": [
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00" }
+				]
+			},
+			"3": {
+				"rgba": [
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00" }
+				]
+			},
+			"4": {
+				"rgba": [
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00" }
+				]
+			},
+			"5": {
+				"rgba": [
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00" }
+				]
+			},
+			"6": {
+				"rgba": [
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00" }
+				]
+			},
+			"blue": {
+				"rgba": [
+					{ "time": 0.1667, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff" }
+				]
+			},
+			"red": {
+				"rgba": [
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"control": {
+				"rotate": [
+					{},
+					{ "time": 0.0667, "value": 3.82 },
+					{ "time": 0.1667, "value": -77.75 },
+					{ "time": 0.3333, "value": -40.52 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.0667, "x": 1.055 },
+					{ "time": 0.1667, "x": 0.126, "y": 0.808 },
+					{ "time": 0.3333, "x": 0.156 }
+				]
+			}
+		}
+	}
+}
+}

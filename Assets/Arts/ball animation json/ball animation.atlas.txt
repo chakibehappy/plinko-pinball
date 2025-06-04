@@ -1,0 +1,23 @@
+ball animation.png
+	size: 512, 128
+	filter: Linear, Linear
+	pma: true
+ball
+	bounds: 369, 50, 68, 69
+	offsets: 1, 1, 70, 71
+glowing
+	bounds: 2, 5, 114, 114
+	offsets: 3, 3, 120, 120
+shadow
+	bounds: 293, 40, 79, 74
+	offsets: 3, 3, 85, 79
+	rotate: 90
+spark1
+	bounds: 369, 2, 49, 46
+	offsets: 2, 3, 53, 51
+spark2
+	bounds: 207, 28, 84, 91
+	offsets: 1, 2, 86, 95
+spark3
+	bounds: 118, 18, 87, 101
+	offsets: 2, 1, 90, 104

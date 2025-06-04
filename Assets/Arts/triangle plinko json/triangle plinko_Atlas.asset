@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: triangle plinko_Atlas
+  m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
+  atlasFile: {fileID: 4900000, guid: 3d5fca8417188a94c98744ac51389a4b, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 5f90542b8df7e034881f25df43c656c5, type: 2}
+  - {fileID: 2100000, guid: a8e4a891953b84447bdcab61f906b66b, type: 2}
+  - {fileID: 2100000, guid: 8f53e0b3af7989649812876b729e8e78, type: 2}

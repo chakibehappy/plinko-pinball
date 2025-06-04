@@ -1,0 +1,43 @@
+plinko slot fx.png
+	size: 1024, 512
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+JP light
+	bounds: 2, 22, 88, 467
+	rotate: 90
+JP sparkle
+	bounds: 2, 202, 103, 529
+	rotate: 90
+jp star1
+	bounds: 623, 180, 56, 64
+	offsets: 18, 13, 95, 97
+jp star2
+	bounds: 660, 246, 35, 38
+	offsets: 13, 13, 63, 64
+jp star3
+	bounds: 660, 246, 35, 38
+	offsets: 13, 13, 63, 64
+lose light
+	bounds: 533, 91, 88, 319
+lose slot
+	bounds: 623, 91, 87, 87
+reward slot
+	bounds: 560, 2, 87, 87
+slot JP
+	bounds: 471, 2, 87, 87
+win light
+	bounds: 2, 112, 88, 467
+	rotate: 90
+win sparkle
+	bounds: 2, 307, 103, 529
+	rotate: 90
+win star1
+	bounds: 649, 25, 56, 64
+	offsets: 18, 13, 95, 97
+win star2
+	bounds: 623, 246, 35, 38
+	offsets: 13, 13, 63, 64
+win star3
+	bounds: 623, 246, 35, 38
+	offsets: 13, 13, 63, 64

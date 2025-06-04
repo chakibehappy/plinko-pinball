@@ -1,0 +1,259 @@
+{
+"skeleton": {
+	"hash": "vg3pjmBbRvk",
+	"spine": "4.1.24",
+	"x": -50.57,
+	"y": 0.73,
+	"width": 95.76,
+	"height": 135.07,
+	"images": "./images/",
+	"audio": "D:/freelance/IDN/Pinball/indicator/images"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "base", "parent": "root", "length": 30.82, "rotation": 87.44, "x": -8.02, "y": -6.77 },
+	{ "name": "circle1", "parent": "base", "length": 18.84, "rotation": -87.44, "x": 96.79, "y": 1.57 },
+	{ "name": "circle2", "parent": "base", "length": 21.14, "rotation": -87.44, "x": 108.89, "y": -7.54 },
+	{ "name": "circle3", "parent": "base", "length": 25.27, "rotation": -87.44, "x": 63.34, "y": -7.28 },
+	{ "name": "circle4", "parent": "base", "length": 33.1, "rotation": -89.03, "x": 133.89, "y": -0.9 },
+	{ "name": "square", "parent": "base", "length": 34.48, "rotation": -88.96, "x": 11.96, "y": 10.2 },
+	{ "name": "question", "parent": "root", "length": 14.48, "rotation": 3.5, "x": -4.54, "y": 75.31 }
+],
+"slots": [
+	{ "name": "base", "bone": "base", "attachment": "base" },
+	{ "name": "text sample", "bone": "base" },
+	{ "name": "win square", "bone": "square", "attachment": "win square" },
+	{ "name": "JP square", "bone": "square", "attachment": "JP square" },
+	{ "name": "lose square", "bone": "square", "attachment": "lose square" },
+	{ "name": "empty square", "bone": "square", "attachment": "empty square" },
+	{ "name": "clipping", "bone": "base", "attachment": "clipping" },
+	{ "name": "win circle4", "bone": "circle4", "attachment": "win circle4" },
+	{ "name": "win circle3", "bone": "circle3", "attachment": "win circle3" },
+	{ "name": "win circle2", "bone": "circle2", "attachment": "win circle2" },
+	{ "name": "win circle1", "bone": "circle1", "attachment": "win circle1" },
+	{ "name": "JP circle 4", "bone": "circle4", "attachment": "JP circle 4" },
+	{ "name": "JP circle3", "bone": "circle3", "attachment": "JP circle3" },
+	{ "name": "Jp circle2", "bone": "circle2", "attachment": "Jp circle2" },
+	{ "name": "JP circle1", "bone": "circle1", "attachment": "JP circle1" },
+	{ "name": "lose circle4", "bone": "circle4", "attachment": "lose circle4" },
+	{ "name": "lose circle3", "bone": "circle3", "attachment": "lose circle3" },
+	{ "name": "lose circle2", "bone": "circle2", "attachment": "lose circle2" },
+	{ "name": "lose circle1", "bone": "circle1", "attachment": "lose circle1" },
+	{ "name": "empty circle", "bone": "circle1", "attachment": "empty circle" },
+	{ "name": "question", "bone": "question", "attachment": "question" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"base": {
+				"base": { "x": 75.37, "y": -1.98, "rotation": -87.44, "width": 95, "height": 134 }
+			},
+			"clipping": {
+				"clipping": {
+					"type": "clipping",
+					"end": "clipping",
+					"vertexCount": 8,
+					"vertices": [ 130.77, 47.75, 139.89, 40.76, 142.16, -37.37, 136.7, -45.46, 19.75, -50.7, 10.97, -45.16, 6.86, 32.55, 15.16, 42.14 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"text sample": {
+				"text sample": { "x": 65.77, "y": 0.1, "rotation": -87.44, "width": 58, "height": 95 }
+			}
+		}
+	},
+	{
+		"name": "empty",
+		"attachments": {
+			"empty circle": {
+				"empty circle": { "x": 2.4, "y": -22.92, "rotation": -0.23, "width": 100, "height": 100 }
+			},
+			"empty square": {
+				"empty square": {
+					"x": 13.31,
+					"y": 63.01,
+					"scaleX": 1.008,
+					"scaleY": 1.008,
+					"rotation": 1.53,
+					"width": 95,
+					"height": 134
+				}
+			},
+			"question": {
+				"question": { "x": 2.4, "y": -9.01, "rotation": -3.5, "width": 28, "height": 36 }
+			}
+		}
+	},
+	{
+		"name": "jackpot",
+		"attachments": {
+			"JP circle1": {
+				"JP circle1": { "x": 1.09, "y": -2.83, "width": 60, "height": 60 }
+			},
+			"Jp circle2": {
+				"Jp circle2": { "x": -9.06, "y": -15.74, "width": 79, "height": 79 }
+			},
+			"JP circle3": {
+				"JP circle3": { "x": -6.26, "y": 30.25, "width": 94, "height": 94 }
+			},
+			"JP circle 4": {
+				"JP circle 4": { "x": -1.92, "y": -40.58, "rotation": -0.13, "width": 112, "height": 112 }
+			},
+			"JP square": {
+				"JP square": { "x": 13.32, "y": 63.18, "rotation": 1.53, "width": 95, "height": 134 }
+			}
+		}
+	},
+	{
+		"name": "lose",
+		"attachments": {
+			"lose circle1": {
+				"lose circle1": { "x": 1.09, "y": -2.83, "width": 60, "height": 60 }
+			},
+			"lose circle2": {
+				"lose circle2": { "x": -9.06, "y": -15.74, "width": 79, "height": 79 }
+			},
+			"lose circle3": {
+				"lose circle3": { "x": -6.26, "y": 30.25, "width": 94, "height": 94 }
+			},
+			"lose circle4": {
+				"lose circle4": { "x": -1.92, "y": -40.58, "rotation": 1.59, "width": 112, "height": 112 }
+			},
+			"lose square": {
+				"lose square": { "x": 13.32, "y": 63.18, "rotation": 1.53, "width": 95, "height": 134 }
+			}
+		}
+	},
+	{
+		"name": "win",
+		"attachments": {
+			"win circle1": {
+				"win circle1": { "x": 1.09, "y": -2.83, "width": 60, "height": 60 }
+			},
+			"win circle2": {
+				"win circle2": { "x": -9.06, "y": -15.74, "width": 79, "height": 79 }
+			},
+			"win circle3": {
+				"win circle3": { "x": -6.26, "y": 30.25, "width": 94, "height": 94 }
+			},
+			"win circle4": {
+				"win circle4": { "x": -1.92, "y": -40.58, "rotation": 1.59, "width": 112, "height": 112 }
+			},
+			"win square": {
+				"win square": { "x": 13.32, "y": 63.18, "rotation": 1.53, "width": 95, "height": 134 }
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {
+		"slots": {
+			"Jp circle2": {
+				"rgba": [
+					{ "time": 0.6697, "color": "ffffffff" },
+					{ "time": 1.003, "color": "ffffff00" }
+				]
+			},
+			"JP circle3": {
+				"rgba": [
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				]
+			},
+			"JP circle 4": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 0.4667, "color": "ffffff00" }
+				]
+			},
+			"lose circle2": {
+				"rgba": [
+					{ "time": 0.6697, "color": "ffffffff" },
+					{ "time": 1.003, "color": "ffffff00" }
+				]
+			},
+			"lose circle3": {
+				"rgba": [
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				]
+			},
+			"lose circle4": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 0.4667, "color": "ffffff00" }
+				]
+			},
+			"question": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"win circle2": {
+				"rgba": [
+					{ "time": 0.6697, "color": "ffffffff" },
+					{ "time": 1.003, "color": "ffffff00" }
+				]
+			},
+			"win circle3": {
+				"rgba": [
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				]
+			},
+			"win circle4": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 0.4667, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"circle2": {
+				"translate": [
+					{ "x": -3.12, "y": 1.18 },
+					{ "time": 1, "x": 3.14, "y": -1.61 }
+				],
+				"scale": [
+					{ "x": 0.8, "y": 0.8 },
+					{ "time": 1, "x": 1.2, "y": 1.2 }
+				]
+			},
+			"circle3": {
+				"translate": [
+					{ "x": 6.55, "y": 0.73 },
+					{ "time": 0.6667, "x": -5.63, "y": -1.57 }
+				],
+				"scale": [
+					{ "x": 0.8, "y": 0.8 },
+					{ "time": 0.6667, "x": 1.2, "y": 1.2 }
+				]
+			},
+			"circle4": {
+				"translate": [
+					{ "x": -7.35, "y": -0.12 },
+					{ "time": 1, "x": 10.36, "y": 0.18 }
+				],
+				"scale": [
+					{ "x": 0.8, "y": 0.8 },
+					{ "time": 1, "x": 1.2, "y": 1.2 }
+				]
+			},
+			"question": {
+				"translate": [
+					{},
+					{ "time": 1, "x": -0.41, "y": 6.7 }
+				],
+				"scale": [
+					{},
+					{ "time": 1, "x": 1.5, "y": 1.52 }
+				]
+			}
+		}
+	}
+}
+}

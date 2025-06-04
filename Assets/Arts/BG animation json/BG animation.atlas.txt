@@ -1,0 +1,28 @@
+BG animation.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+1
+	bounds: 544, 624, 338, 199
+	offsets: 4, 0, 342, 199
+	rotate: 90
+2
+	bounds: 544, 373, 249, 237
+	offsets: 7, 3, 260, 243
+	rotate: 90
+3
+	bounds: 544, 240, 229, 131
+	offsets: 5, 4, 236, 136
+4
+	bounds: 544, 113, 201, 125
+5
+	bounds: 544, 8, 103, 178
+	offsets: 3, 3, 109, 184
+	rotate: 90
+BG
+	bounds: 2, 2, 540, 960
+area77
+	bounds: 745, 624, 144, 61
+	offsets: 15, 0, 178, 61
+	rotate: 90

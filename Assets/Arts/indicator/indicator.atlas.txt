@@ -1,0 +1,66 @@
+indicator.png
+	size: 1024, 256
+	filter: Linear, Linear
+	pma: true
+JP circle 4
+	bounds: 701, 103, 110, 110
+	offsets: 1, 1, 112, 112
+JP circle1
+	bounds: 375, 21, 58, 58
+	offsets: 1, 1, 60, 60
+JP circle3
+	bounds: 813, 19, 92, 92
+	offsets: 1, 1, 94, 94
+JP square
+	bounds: 382, 81, 93, 132
+	offsets: 1, 1, 95, 134
+Jp circle2
+	bounds: 81, 2, 77, 77
+	offsets: 1, 1, 79, 79
+base
+	bounds: 287, 81, 93, 132
+	offsets: 1, 1, 95, 134
+empty circle
+	bounds: 813, 113, 100, 99
+	offsets: 0, 1, 100, 100
+	rotate: 90
+empty square
+	bounds: 192, 81, 93, 132
+	offsets: 1, 1, 95, 134
+lose circle1
+	bounds: 315, 21, 58, 58
+	offsets: 1, 1, 60, 60
+lose circle2
+	bounds: 2, 2, 77, 77
+	offsets: 1, 1, 79, 79
+lose circle3
+	bounds: 914, 27, 92, 92
+	offsets: 1, 1, 94, 94
+lose circle4
+	bounds: 589, 103, 110, 110
+	offsets: 1, 1, 112, 112
+lose square
+	bounds: 97, 81, 93, 132
+	offsets: 1, 1, 95, 134
+question
+	bounds: 435, 44, 25, 35
+	offsets: 1, 1, 28, 36
+text sample
+	bounds: 160, 23, 56, 93
+	offsets: 1, 1, 58, 95
+	rotate: 90
+win circle1
+	bounds: 255, 21, 58, 58
+	offsets: 1, 1, 60, 60
+win circle2
+	bounds: 477, 24, 77, 77
+	offsets: 1, 1, 79, 79
+win circle3
+	bounds: 914, 121, 92, 92
+	offsets: 1, 1, 94, 94
+win circle4
+	bounds: 477, 103, 110, 110
+	offsets: 1, 1, 112, 112
+win square
+	bounds: 2, 81, 93, 132
+	offsets: 1, 1, 95, 134

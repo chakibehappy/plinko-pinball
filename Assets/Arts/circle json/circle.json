@@ -1,0 +1,192 @@
+{
+"skeleton": {
+	"hash": "Fp6gljOFKzw",
+	"spine": "4.1.24",
+	"x": -137.27,
+	"y": -139.48,
+	"width": 275,
+	"height": 277,
+	"images": "./images/",
+	"audio": "F:/SLENCE/Work/PINBALL/10-9-2024/Circle/4.1"
+},
+"bones": [
+	{ "name": "root", "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "center control", "parent": "root", "x": 168.41, "y": 1.89 },
+	{ "name": "bumper control", "parent": "root", "x": 282.05, "y": 4.74 },
+	{ "name": "base", "parent": "root", "x": -0.25, "y": 0.34 },
+	{ "name": "bumper", "parent": "base", "length": 52.48, "rotation": 89.34, "y": 4.17 },
+	{ "name": "center", "parent": "base", "length": 11.51, "rotation": -89.41, "x": 0.01, "y": -1.17 }
+],
+"slots": [
+	{ "name": "circle base", "bone": "base", "attachment": "circle base" },
+	{ "name": "center", "bone": "center", "attachment": "center" },
+	{ "name": "bumper", "bone": "bumper", "attachment": "bumper skin" },
+	{ "name": "bumper light", "bone": "bumper", "blend": "additive" },
+	{ "name": "bumper 4-1", "bone": "bumper", "blend": "additive" },
+	{ "name": "bumper off", "bone": "bumper" },
+	{ "name": "center off", "bone": "center" }
+],
+"transform": [
+	{
+		"name": "bumper",
+		"order": 1,
+		"bones": [ "bumper" ],
+		"target": "bumper control",
+		"rotation": 89.34,
+		"x": -282.3,
+		"y": -0.24,
+		"mixRotate": 0,
+		"mixX": 0,
+		"mixScaleX": 0.57,
+		"mixShearY": 0
+	},
+	{
+		"name": "center",
+		"bones": [ "center" ],
+		"target": "center control",
+		"rotation": -89.41,
+		"x": -207.21,
+		"y": -2.72,
+		"mixRotate": 0,
+		"mixX": 0,
+		"mixScaleX": 0.56,
+		"mixShearY": 0
+	}
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"bumper 4-1": {
+				"bumper 4-1": { "x": 140.06, "y": 145.4, "rotation": -89.34, "width": 260, "height": 258 },
+				"bumper 4-2": { "x": 139.94, "y": -141.49, "rotation": -89.34, "width": 262, "height": 262 },
+				"bumper 4-3": { "x": -150.95, "y": -151.69, "rotation": -89.34, "width": 252, "height": 262 },
+				"bumper 4-4": { "x": -158.44, "y": 141.97, "rotation": -89.34, "width": 258, "height": 254 }
+			},
+			"bumper off": {
+				"bumper skin0": { "x": -6.96, "y": -0.08, "rotation": -89.34, "width": 550, "height": 554 }
+			},
+			"center": {
+				"center": { "x": 12.12, "y": -1.42, "rotation": 89.41, "width": 258, "height": 258 },
+				"center 2": { "x": 12.12, "y": -1.42, "rotation": 89.41, "width": 258, "height": 258 }
+			},
+			"center off": {
+				"center off": { "x": -5.06, "y": -18.49, "width": 258, "height": 258 }
+			},
+			"circle base": {
+				"circle base": { "x": -1.28, "y": -4.3, "width": 490, "height": 490 }
+			}
+		}
+	},
+	{
+		"name": "0",
+		"attachments": {
+			"bumper": {
+				"bumper skin": { "name": "bumper skin0", "x": -5.78, "y": -0.07, "rotation": -89.34, "width": 550, "height": 554 }
+			}
+		}
+	},
+	{
+		"name": "1",
+		"attachments": {
+			"bumper": {
+				"bumper skin": { "name": "bumper skin1", "x": -5.78, "y": -0.07, "rotation": -89.34, "width": 550, "height": 554 }
+			},
+			"bumper light": {
+				"bumper light": { "name": "bumper 3-1", "x": -157.91, "y": 142.92, "rotation": -89.34, "width": 259, "height": 255 }
+			}
+		}
+	},
+	{
+		"name": "2",
+		"attachments": {
+			"bumper": {
+				"bumper skin": { "name": "bumper skin2", "x": -5.78, "y": -0.07, "rotation": -89.34, "width": 550, "height": 554 }
+			},
+			"bumper light": {
+				"bumper light": { "name": "bumper 3-2", "x": -8.56, "y": 143.07, "rotation": -89.34, "width": 261, "height": 554 }
+			}
+		}
+	},
+	{
+		"name": "3",
+		"attachments": {
+			"bumper": {
+				"bumper skin": { "name": "bumper skin3", "x": -5.78, "y": -0.07, "rotation": -89.34, "width": 550, "height": 554 }
+			},
+			"bumper light": {
+				"bumper light": { "name": "bumper 3-3", "x": -6.14, "y": -0.84, "rotation": -89.34, "width": 550, "height": 554 }
+			}
+		}
+	},
+	{
+		"name": "4",
+		"attachments": {
+			"bumper": {
+				"bumper skin": { "name": "bumper", "x": -6.46, "y": -0.79, "rotation": -89.34, "width": 550, "height": 554 }
+			},
+			"bumper light": {
+				"bumper light": { "name": "bumper 2", "x": -6.14, "y": -1.09, "rotation": -89.34, "width": 550, "height": 554 }
+			}
+		}
+	}
+],
+"animations": {
+	"hit": {
+		"slots": {
+			"bumper light": {
+				"attachment": [
+					{ "time": 0.1, "name": "bumper light" },
+					{ "time": 0.2 }
+				]
+			},
+			"center": {
+				"attachment": [
+					{ "time": 0.1, "name": "center 2" },
+					{ "time": 0.2, "name": "center" }
+				]
+			}
+		},
+		"bones": {
+			"center control": {
+				"scale": [
+					{},
+					{ "time": 0.1333, "x": 1.191, "y": 1.191 },
+					{ "time": 0.2, "x": 0.768, "y": 0.768 },
+					{ "time": 0.2667, "x": 1.082, "y": 1.082 },
+					{ "time": 0.3333 }
+				]
+			},
+			"bumper control": {
+				"scale": [
+					{},
+					{ "time": 0.1, "x": 1.416, "y": 1.416 },
+					{ "time": 0.2, "x": 0.923, "y": 0.923 },
+					{ "time": 0.2667, "x": 1.226, "y": 1.226 },
+					{ "time": 0.3333 }
+				]
+			},
+			"base": {
+				"scale": [
+					{},
+					{ "time": 0.1, "x": 1.05, "y": 1.05 },
+					{ "time": 0.3333 }
+				]
+			}
+		}
+	},
+	"idle": {
+		"slots": {
+			"bumper 4-1": {
+				"attachment": [
+					{ "time": 0.2333, "name": "bumper 4-1" },
+					{ "time": 0.7667, "name": "bumper 4-2" },
+					{ "time": 1.3, "name": "bumper 4-3" },
+					{ "time": 1.8333, "name": "bumper 4-4" },
+					{ "time": 2.3333 }
+				]
+			}
+		}
+	}
+}
+}
