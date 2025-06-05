@@ -155,6 +155,9 @@ public class MenuManager : MonoBehaviour
         playerCurrency = response.data.player.player_currency;
         ChangePlayerBallance(response.data.player.player_balance);
 
+        string playerLanguage = response.data.player.player_language.ToLower();
+        LanguageManager.Instance.SetLanguage(playerLanguage);
+
         string bulletPoint = "\u2022 ";
         string lineBreak = "\r\n";
 
