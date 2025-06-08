@@ -149,15 +149,29 @@ public class TutorialDisplay : MonoBehaviour
         }
     }
 
+    private bool IsUrl(string input)
+    {
+        if (string.IsNullOrWhiteSpace(input))
+            return false;
+
+        input = input.Trim().ToLower();
+        return input.StartsWith("http://") || input.StartsWith("https://");
+    }
+
     public void SetPage(int pageIndex)
     {
         currentPage = pageIndex;
         if (webViewPrefab.WebView != null)
         {
-            //string html = languageManager.GetTutorialHtml(pageIndex);
-            //webViewPrefab.WebView.LoadHtml(html);
-            string url = languageManager.GetTutorialHtml(pageIndex);
-            webViewPrefab.WebView.LoadUrl(url);
+            string html = languageManager.GetTutorialHtml(pageIndex);
+            if (IsUrl(html))
+            {
+                webViewPrefab.WebView.LoadUrl(html);
+            }
+            else
+            {
+                webViewPrefab.WebView.LoadHtml(html);
+            }
         }
         UpdateIndicators();
     }
