@@ -136,6 +136,8 @@ public class MenuManager : MonoBehaviour
     public string playerCurrency = "";
     List<TextMeshProUGUI> tutorialTextToChange;
 
+    public List<GameObject> interactablesUI;
+
     [Serializable]
     public class HistoryRecord
     {
@@ -256,6 +258,25 @@ public class MenuManager : MonoBehaviour
         TutorialUI.SetActive(false);
         AudioMenuUI.SetActive(false);
         HistoryUI.SetActive(false);
+
+
+        interactablesUI.ForEach(screen =>
+        {
+            EventTrigger eventTrigger = screen.AddComponent<EventTrigger>();
+            EventTrigger.Entry entryScreen = new()
+            {
+                eventID = EventTriggerType.PointerDown
+            };
+            entryScreen.callback.AddListener((data) => { ForceCloseMenu(); });
+            eventTrigger.triggers.Add(entryScreen);
+        });
+        
+    }
+
+    void ForceCloseMenu()
+    {
+        showMenu = false;
+        ShowMenuButtons();
     }
 
     public void AddHistory(float result, List<GameResultEntry> entries)
@@ -601,6 +622,7 @@ public class MenuManager : MonoBehaviour
 
     void OnAutoPlayRoundSelected(int index)
     {
+        ForceCloseMenu();
         selectedAutoPlayRoundsIndex = index;
         ShowRoundCount(roundNumbers[selectedAutoPlayRoundsIndex]);
         for (int i = 0; i < autoPlayRoundNumberButton.Count; i++)
@@ -622,7 +644,10 @@ public class MenuManager : MonoBehaviour
         {
             eventID = EventTriggerType.PointerDown
         };
-        entryStart.callback.AddListener((data) => { StartRound(); });
+        entryStart.callback.AddListener((data) => {
+            ForceCloseMenu(); 
+            StartRound(); 
+        });
         eventTrigger.triggers.Add(entryStart);
     }
 
@@ -633,7 +658,10 @@ public class MenuManager : MonoBehaviour
         {
             eventID = EventTriggerType.PointerDown
         };
-        entryStart.callback.AddListener((data) => { OpenAutoPlayUI(true); });
+        entryStart.callback.AddListener((data) => {
+            ForceCloseMenu(); 
+            OpenAutoPlayUI(true); 
+        });
         eventTrigger.triggers.Add(entryStart);
 
         EventTrigger closeEventTrigger = closeAutoPlayButton.AddComponent<EventTrigger>();
@@ -641,7 +669,10 @@ public class MenuManager : MonoBehaviour
         {
             eventID = EventTriggerType.PointerDown
         };
-        entryExit.callback.AddListener((data) => { OpenAutoPlayUI(false); });
+        entryExit.callback.AddListener((data) => {
+            ForceCloseMenu(); 
+            OpenAutoPlayUI(false); 
+        });
         closeEventTrigger.triggers.Add(entryExit);
 
         EventTrigger confirmEventTrigger = confirmAutoPlayButton.AddComponent<EventTrigger>();
@@ -649,12 +680,16 @@ public class MenuManager : MonoBehaviour
         {
             eventID = EventTriggerType.PointerDown
         };
-        entryConfirm.callback.AddListener((data) => { StartRound(); });
+        entryConfirm.callback.AddListener((data) => {
+            ForceCloseMenu(); 
+            StartRound(); 
+        });
         confirmEventTrigger.triggers.Add(entryConfirm);
     }
 
-    public void OpenAutoPlayUI(bool isOpen) 
+    public void OpenAutoPlayUI(bool isOpen)
     {
+        ForceCloseMenu();
         launchButtonImage.sprite = launchButtonSprite[isOpen ? 1 : 0];
         ShowLauncHighlightIcon(!isOpen);
         txtRoundCount.gameObject.SetActive(isOpen);
@@ -685,6 +720,7 @@ public class MenuManager : MonoBehaviour
             eventID = EventTriggerType.PointerDown
         };
         entry.callback.AddListener((data) => {
+            ForceCloseMenu();
             showPopUpBet = !showPopUpBet;
             ShowPopUpBetInfo(showPopUpBet);
         });
@@ -702,6 +738,7 @@ public class MenuManager : MonoBehaviour
 
     public void ClosePopUpInfo()
     {
+        ForceCloseMenu();
         if (showPopUpBet)
         {
             showPopUpBet = false;
@@ -797,6 +834,7 @@ public class MenuManager : MonoBehaviour
 
     void ChangeBet(bool isIncrease, bool playSound = true)
     {
+        ForceCloseMenu();
         int prevChip = selectedChipValueIndex;
         selectedChipValueIndex += isIncrease ? 1 : -1;
         selectedChipValueIndex = Mathf.Clamp(selectedChipValueIndex, 0, chipValues.Length - 1);
@@ -843,6 +881,7 @@ public class MenuManager : MonoBehaviour
 
     void GoToGameScreen()
     {
+        ForceCloseMenu();
         SFX.PlayOneShot(sfxClips[0]);
         TitleScreen.SetActive(false);
         ShowButtonUI(true);
@@ -850,6 +889,7 @@ public class MenuManager : MonoBehaviour
 
     void StartRound()
     {
+        ForceCloseMenu();
         float totalBet = currentBet * 5;
         if (totalBet <= 0)
             return;
